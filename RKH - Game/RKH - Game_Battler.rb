@@ -78,7 +78,8 @@ class Game_Battler < Game_BattlerBase
   # *~ OVERWRITE Determine Action Speed
   #--------------------------------------------------------------------------
   def make_speed
-    @speed = @init + Random.rand(10)
+    #@speed = @init + Random.rand(10)
+    @speed = 4 + Random.rand(5)
   end
 
   #--------------------------------------------------------------------------
@@ -114,8 +115,8 @@ class Game_Battler < Game_BattlerBase
       item.effects.each {|effect| item_effect_apply(user, item, effect) }
       return item_user_effect(user, item)
     elsif item.magical? || item.physical?
-      hit = jet_attaque(user, item)
-      @result.evaded = (hit < esquive)
+      hit_rate = item_estimate_hit_rate(user, item)
+      @result.evaded = (hit_rate < evasion)
     end
 
     if @result.hit? 
@@ -162,6 +163,9 @@ class Game_Battler < Game_BattlerBase
   # *~ OVERWRITE Calculate Physical Damage
   #--------------------------------------------------------------------------
   def make_physical_damage(user, item)
+    if user.weapons[0].nil?
+      return 1
+    end
     weapon = user.weapons[0]
     value = 1 + Random.rand(weapon.damage)
     value += 1 + Random.rand(user.weapons[1].damage) if user.dual_wield? && !user.weapons[1].nil?
@@ -173,10 +177,9 @@ class Game_Battler < Game_BattlerBase
       end
       add_state(weapon.critic_effect) unless weapon.critic_effect.nil?
     end
-    #value *= rec if item.damage.recover?
-    #value *= item_element_rate(user, item)
     value -= 4 if user.dual_wield? # && !passiv.dual_wield
     value += state_bonuses(user, "DMG")
+    value += armors[0].def if !armors.empty?
     value = [value, 1].max
     @result.make_damage(value.to_i, item)
   end
@@ -184,22 +187,22 @@ class Game_Battler < Game_BattlerBase
   #--------------------------------------------------------------------------
   # *~ Calculate Hit Rate
   #--------------------------------------------------------------------------
-  def jet_attaque(user, item)
+  def item_estimate_hit_rate(user, item)
     weapon = user.weapons[0]
-    armor  = user.armors[0] if !user.armors.empty?
     # Dice throw
     value = 1 + Random.rand(20) 
     # Critic or Fumble ?
     value = item_cri_or_fumble(value, weapon)
-    value += item_range_physical(user, item)
-    value += armor.dex if !armor.nil?
+    # Real Hit Rate
+    value = user.dex + user.level
+    value += item_range_physical(user, item, weapon) if !weapon.nil?
     value += modificateur(user.int) if item.magical? 
-    value += user.level
-    value += state_bonuses(user, "JA")
-    # User States Bonuses
-    #user.states.each { |state|
-    #  value += $data_states[state].bonuses["JA"] unless $data_states[state].bonuses["JA"].nil?
-    #}
+    value += state_bonuses(user, "HIT")
+    if evasion - value > 0
+      value += 1 + Random.rand(6)
+    else
+      value -= 1 + Random.rand(6)
+    end
     return value
   end
 
@@ -209,8 +212,8 @@ class Game_Battler < Game_BattlerBase
     value
   end
 
-  def item_range_physical(user, item)
-    weapon = user.weapons[0]
+  def item_range_physical(user, item, weapon)
+    # If weapon is Range or Both
     if item.physical? and (weapon.range == 1 or weapon.range == 3)
       return modificateur(user.dex)
     end

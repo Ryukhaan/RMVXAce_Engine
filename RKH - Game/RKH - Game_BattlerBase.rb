@@ -11,7 +11,7 @@ class Game_BattlerBase
   # * Access Method by Parameter Abbreviations
   #--------------------------------------------------------------------------  
   alias :for :atk
-  alias :con :def 
+  alias :eva :def 
   alias :int :mat
   alias :foi :mdf
   alias :dex :agi
@@ -20,9 +20,10 @@ class Game_BattlerBase
   #--------------------------------------------------------------------------
   # * Calculate Weapon's TP Cost
   #--------------------------------------------------------------------------
-  def weapon_tp_cost(weapon)
+  def weapon_tp_cost(weapon, weapon2 = nil)
     return 5 if weapon.nil?
-    return weapon.cost + state_bonuses(self, "END") unless self.enemy?
+    return weapon.cost + state_bonuses(self, "WC") if !self.enemy? && weapon2.nil?
+    return [weapon.cost, weapon2.cost].max + state_bonuses(self, "WC") unless self.enemy?
     return 0
   end
 
@@ -33,9 +34,9 @@ class Game_BattlerBase
   def skill_cost_payable?(skill)
     payable = skill_cost_payable_ex(skill)
     return payable if skill.id == 2
-    return payable && tp >= weapon_tp_cost(self.weapons[0])
+    return payable && tp >= weapon_tp_cost(self.weapons[0]) if !dual_wield?
+    return payable && tp >= weapon_tp_cost(self.weapons[0], self.weapons[1]) if dual_wield?
   end
-
 
   #--------------------------------------------------------------------------
   # *~ OVERWRITE Calculate Skill's TP Cost
@@ -46,21 +47,20 @@ class Game_BattlerBase
     return skill_cost if skill.id == 2 # Recharge
     return skill_cost + weapon_tp_cost(self.weapons[0]) 
   end
-
+  
   #--------------------------------------------------------------------------
   # * Calculate Parameter Mod.
   #--------------------------------------------------------------------------
   def modificateur(parameter)
-    return (parameter - 10) / 2
+    return parameter / 2
   end
   
   #--------------------------------------------------------------------------
   # * Calculate Evade Rate
   #--------------------------------------------------------------------------
-  def esquive
-    value = con + modificateur(dex) + level
-    value += armors[0].params[3] unless armors.empty?
-    value += state_bonuses(self, "ESQ")
+  def evasion
+    value = eva + level
+    value += state_bonuses(self, "EVA")
     [value, 1].max
   end
   

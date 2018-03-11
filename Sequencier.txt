@@ -1,0 +1,69 @@
+Ouverture : 
+	Contes & Légendes
+---------
+Présentation de Yaga
+Choix des classes et des caractéristiques.
+
+
+--------
+Scène 1
+--------
+
+	Dans la maison du chef du village, Yugon et Yaga attendent nos vaillants héros.
+Ska, héros, jeune chasseur
+Ada, héroine, jeune chasseuse
+Wol, héros, jeune chasseur
+Yugon, chef du village
+Yaga, doyenne du village
+
+Ska et Ada arrivent ensemble
+:Ada Ça faisait longtemps que Yugon ne nous avez pas convoqués tous les trois ensemble.
+:Ska Oui. Je me demande bien ce qu'il nous veut.
+:Ada Je suppose pour une chasse à la Luxlithe.
+:Ska Ou bien pour réparer son toit.
+:Yugon Bien le bonjour. Wol n'est pas avec vous ?
+:Ska Bonjour, il arrive dans un instant.
+:Yugon Commençons sans lui. Je vous ai demandés de venir car avec Yaga nous avons pensés qu'il nous faudrait une réserve de Luxlithes. Yaga va vous dire où vous pouvez en trouver.
+:Yaga Merci Yugon. Bonjour à vous tout d'abord. Mon vieux lithographe m'indique la position d'une Luxlithe dans la forêt au nord. Il semblerait que d'autres chasseurs venus d'ailleurs rodent dans la région. Prenez garde. Au cas où vous auriez oubliez à quoi ressemble une Luxlithe, il y en a derrière nous.
+:Wol Une pierre aussi scintillante est inoubliable.
+:Yugon Je n'ai rien d'autre à ajouter. Que la pierre brille en vous !
+:Yaga Que la pierre brille en vous jeunes chasseurs.
+
+:Yugon Attendez ! 
+:Yugon J'ai oublié de vous donner votre récompense pour la précédente quête. Prenez ceci avec vous.
+:Yugon N'oubliez pas de bien vous préparer avant de partir. Si vous avez des questions venez nous les poser.
+
+
+--------
+Scène 1.2
+--------
+
+	Dans la forêt, devant la luxlithe. Nos héros.
+
+:Wol Voilà la luxlithe ! 
+:Ada Elle n'est pas très brillante.
+:Ska Vous avez entendu ce son ?
+:Wol Oui, cela ne présage rien de bon. Une clochette dans une forêt, c'est pas courant.
+:Ska Regardez ! Quelque chose vient droit sur nous
+:Ada Preparez vous à combattre !
+
+--------
+Scène 2
+--------
+
+	De retour de la mission. Dans la maison du chef du village. Nos héros, Yugon et Yaga.
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

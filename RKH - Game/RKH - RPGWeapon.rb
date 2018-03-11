@@ -48,7 +48,7 @@ module RKH
 		module REGEX
 		end
 
-		ABR_BONUS = ["HP", "END", "JA", "DMG", "ESQ"]
+		ABR_BONUS = ["HP", "WC", "HIT", "DMG", "EVA"]
 	end
 end
 
@@ -74,6 +74,10 @@ module DataManager
   	for weapon in $data_weapons
   		next if weapon.nil?
   		weapon.load_notetags_edr
+  	end
+  	for armor in $data_armors
+  		next if armor.nil?
+  		armor.load_notetags_edr
   	end
   	for enemy in $data_enemies
   		next if enemy.nil?
@@ -142,8 +146,8 @@ class RPG::Weapon < RPG::EquipItem
 
 	def performance
 		turns = (100 / @cost.to_f)
-			(1 + @damage) / 2 * (turns / (turns + 1.0))
-		end
+		(1 + @damage) / 2 * (turns / (turns + 1.0))
+	end
 end # RPG::Weapon
 
 #==============================================================================
@@ -202,12 +206,13 @@ end # RPG::Item
 # RPG::Armor
 #==============================================================================
 class RPG::Armor < RPG::EquipItem
-	def for;	@params[2];	end
-	def con;	@params[3];	end
-	def int;	@params[4]; end
-	def foi;	@params[5];	end
-	def dex;	@params[6];	end
-	def hon;	@params[7];	end
+	attr_accessor :damage_reduction
+  
+  	def load_notetags_edr
+  		@damage_reduction = 0
+  		self.note[/<DR:[ ](-?\d+)>/i]
+  		@damage_reduction = $1.to_i if !$1.nil?
+  	end
 end # RPG::Armor
 
 

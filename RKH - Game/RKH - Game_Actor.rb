@@ -52,18 +52,9 @@ class Game_Actor < Game_Battler
     return [0,1,3]                      # Normal
   end
 
-  # *~ OVERWRITE
-  def esquive
-    if armors.length == 1
-      return con + modificateur(dex) + level + armors[0].params[3]
-    else
-      return con + modificateur(dex) + level
-    end
-  end
-
-  alias jet_attaque_ex jet_attaque
-  def jet_attaque(user, item)
-    value = jet_attaque_ex(user, item)
+  alias item_estimate_hit_rate_ex item_estimate_hit_rate
+  def item_estimate_hit_rate(user, item)
+    value = item_estimate_hit_rate_ex(user, item)
     unless user.enemy?
       user.skills.each { |skill|
         if skill.passiv?
