@@ -179,7 +179,7 @@ class Game_Battler < Game_BattlerBase
     end
     value -= 4 if user.dual_wield? # && !passiv.dual_wield
     value += state_bonuses(user, "DMG")
-    value += armors[0].def if !armors.empty?
+    #value += armors[0].def if !armors.empty?
     value = [value, 1].max
     @result.make_damage(value.to_i, item)
   end
