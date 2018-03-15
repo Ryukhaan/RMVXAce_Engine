@@ -17,18 +17,21 @@ Yugon, chef du village
 Yaga, doyenne du village
 
 Ska et Ada arrivent ensemble
-:Ada Ça faisait longtemps que Yugon ne nous avez pas convoqués tous les trois ensemble.
+:Ada Ça faisait longtemps que Yugon ne nous avez pas convoqués tous les trois.
 :Ska Oui. Je me demande bien ce qu'il nous veut.
-:Ada Je suppose pour une chasse à la Luxlithe.
-:Ska Ou bien pour réparer son toit.
+:Ada Allons ! C'est sûrement pour une chasse à la Luxlithe.
+:Ska Ou bien pour réparer son toit, nan ? Il nous demande pleins de services.
+:Ada Nous allons le savoir tout de suite
 :Yugon Bien le bonjour. Wol n'est pas avec vous ?
-:Ska Bonjour, il arrive dans un instant.
-:Yugon Commençons sans lui. Je vous ai demandés de venir car avec Yaga nous avons pensés qu'il nous faudrait une réserve de Luxlithes. Yaga va vous dire où vous pouvez en trouver.
-:Yaga Merci Yugon. Bonjour à vous tout d'abord. Mon vieux lithographe m'indique la position d'une Luxlithe dans la forêt au nord. Il semblerait que d'autres chasseurs venus d'ailleurs rodent dans la région. Prenez garde. Au cas où vous auriez oubliez à quoi ressemble une Luxlithe, il y en a derrière nous.
+:Ska Bonjour, il arrive. Il devait finir un truc.
+:Yugon Commençons sans lui. Nous avons pensé Yaga et moi qu'il nous faudrait une réserve de Luxlithes, cela serait plus prudent et plus sage. Vous vous en doutez, vous allez partir à la chasse à la Luxlithe. Yaga va vous dire où vous pouvez en trouver. Je t'en prie Yaga.
+:Yaga Merci Yugon. Bonjour à vous. Mon vieux lithographe m'indique la position d'une Luxlithe dans la forêt au nord. 
+:Wol Il en reste encore dans cette forêt ? Pas faute d'y aller régulièrement.
+:Yaga A priori il en reste. Nous ne savons pas comment ces pierres se forment. Mon lithographe n'indique que la présence de pierre à l'aide d'un point plus ou moins lumineux. Je vous met en garde, il semblerait que d'autres chasseurs soient venus de loin et rodent dans la région. Au cas où vous auriez oubliez à quoi ressemble une Luxlithe, il y en a derrière nous.
 :Wol Une pierre aussi scintillante est inoubliable.
 :Yugon Je n'ai rien d'autre à ajouter. Que la pierre brille en vous !
 :Yaga Que la pierre brille en vous jeunes chasseurs.
-
+:Ska Merci à vous deux, nous partons à la chasse.
 :Yugon Attendez ! 
 :Yugon J'ai oublié de vous donner votre récompense pour la précédente quête. Prenez ceci avec vous.
 :Yugon N'oubliez pas de bien vous préparer avant de partir. Si vous avez des questions venez nous les poser.
@@ -41,11 +44,13 @@ Scène 1.2
 	Dans la forêt, devant la luxlithe. Nos héros.
 
 :Wol Voilà la luxlithe ! 
-:Ada Elle n'est pas très brillante.
+:Ada Elle n'est pas très brillante celle-ci.
+:Wol Oui, c'est assez perturbant d'ailleurs.
 :Ska Vous avez entendu ce son ?
 :Wol Oui, cela ne présage rien de bon. Une clochette dans une forêt, c'est pas courant.
-:Ska Regardez ! Quelque chose vient droit sur nous
+:Ska Regardez ! Quelque chose vient droit sur nous !
 :Ada Preparez vous à combattre !
+:Wol À mort !
 
 --------
 Scène 2
@@ -53,7 +58,24 @@ Scène 2
 
 	De retour de la mission. Dans la maison du chef du village. Nos héros, Yugon et Yaga.
 
-Yugon: Tiens, voilà nos braves chasseurs.
+:Yugon Tiens, voilà nos braves chasseurs. Vous avez retrouvez la pierre ?
+:Wol Oui, la voici.
+:Yaga Elle est bien petite, je pensais qu'elle aurait été de taille normale.
+:Yugon Mmh cela ne suffit pas comme réserve. Yaga, aurais-tu un indice avec ton lithographe sur l'emplacement d'une autre Luxlithe ?
+:Yaga Attends je vais regarder.
+:Ada Yugon saurais-tu quelque chose à propos de bruit de clochette près des pierres ?
+:Yugon Des bruits de clochettes ? Je n'ai jamais entendu parler que les pierres faisaient du bruit. Pourquoi cette question ?
+:Ska Nous avons entendu des bruits au moment de récupérer la pierre...
+:Wol Et un monstre nous a alors attaqués.
+:Yugon Un monstre ? C'est assez banal, nan ?
+:Ada Oui mais il semblait réagir aux bruits émis par la clochette.
+:Yaga Pour votre clochette je ne peux pas vous aider, mais il semblerait que sur le mont *** il y ait une autre Luxlithe. Je vais demander à Puck de vous préparer un bateau.
+:Yugon Aah ! Voilà une bonne nouvelle. Partez de suite récupérer cette pierre.
+Et pendant que j'y pense voici votre butin pour la pierre que vous avez ramenée.
+:Ska Entendu ! Nous y allons.
+
+
+ 
 
 
 
