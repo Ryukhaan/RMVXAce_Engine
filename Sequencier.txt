@@ -3,76 +3,175 @@ Ouverture :
 ---------
 Présentation de Yaga
 Choix des classes et des caractéristiques.
++ Conte/Poème
 
-
---------
-Scène 1
---------
-
++++++++++++++++
+	Balfort
++++++++++++++++
+Scene 1
+-------	
 	Dans la maison du chef du village, Yugon et Yaga attendent nos vaillants héros.
-Ska, héros, jeune chasseur
-Ada, héroine, jeune chasseuse
-Wol, héros, jeune chasseur
-Yugon, chef du village
-Yaga, doyenne du village
 
-Ska et Ada arrivent ensemble
-:Ada Ça faisait longtemps que Yugon ne nous avez pas convoqués tous les trois.
-:Ska Oui. Je me demande bien ce qu'il nous veut.
-:Ada Allons ! C'est sûrement pour une chasse à la Luxlithe.
-:Ska Ou bien pour réparer son toit, nan ? Il nous demande pleins de services.
-:Ada Nous allons le savoir tout de suite
-:Yugon Bien le bonjour. Wol n'est pas avec vous ?
-:Ska Bonjour, il arrive. Il devait finir un truc.
-:Yugon Commençons sans lui. Nous avons pensé Yaga et moi qu'il nous faudrait une réserve de Luxlithes, cela serait plus prudent et plus sage. Vous vous en doutez, vous allez partir à la chasse à la Luxlithe. Yaga va vous dire où vous pouvez en trouver. Je t'en prie Yaga.
-:Yaga Merci Yugon. Bonjour à vous. Mon vieux lithographe m'indique la position d'une Luxlithe dans la forêt au nord. 
-:Wol Il en reste encore dans cette forêt ? Pas faute d'y aller régulièrement.
-:Yaga A priori il en reste. Nous ne savons pas comment ces pierres se forment. Mon lithographe n'indique que la présence de pierre à l'aide d'un point plus ou moins lumineux. Je vous met en garde, il semblerait que d'autres chasseurs soient venus de loin et rodent dans la région. Au cas où vous auriez oubliez à quoi ressemble une Luxlithe, il y en a derrière nous.
-:Wol Une pierre aussi scintillante est inoubliable.
-:Yugon Je n'ai rien d'autre à ajouter. Que la pierre brille en vous !
-:Yaga Que la pierre brille en vous jeunes chasseurs.
-:Ska Merci à vous deux, nous partons à la chasse.
-:Yugon Attendez ! 
-:Yugon J'ai oublié de vous donner votre récompense pour la précédente quête. Prenez ceci avec vous.
-:Yugon N'oubliez pas de bien vous préparer avant de partir. Si vous avez des questions venez nous les poser.
+[Ada et Ska entrent.]
+
+:Ada	Ça faisait longtemps que Yugon ne nous avez pas convoqués tous les trois.
+:Ska	Oui. Je me demande bien ce qu'il nous veut.
+:Ada	Allons ! C'est sûrement pour une chasse à la Luxlithe.
+:Ska	Ou bien pour réparer son toit, nan ? Il nous demande pleins de services.
+:Ada	Nous allons le savoir tout de suite.
+
+[Ils sont devant Yugon et Yaga, Wol arrive tranquillement.]
+
+:Yugon	Bien le bonjour. Wol n'est pas avec vous ?
+:Ska 	Bonjour Yugon, il arrive dans un instant. Il devait finir un truc.
+:Yugon 	Cela ne fait rien. Commençons sans lui. Nous avons pensé, Yaga et moi, qu'il nous faudrait une réserve de Luxlithes. 
+		Cela serait plus prudent et plus sage. Vous vous en doutez, vous allez partir à la chasse à la Luxlithe. 
+		Yaga va vous dire où vous pouvez en trouver. Je t'en prie Yaga.
+:Yaga 	Merci Yugon. Bonjour Wol. Mon vieux lithographe m'indique la position d'une Luxlithe dans la forêt au nord. 
+:Wol 	Il en reste encore dans cette forêt ? Pas faute d'y aller régulièrement.
+:Yaga 	A priori il en reste. Nous ne savons pas comment ces pierres se forment. 
+		Mon lithographe n'indique que la présence des pierres. 
+		Je vous met en garde, il semblerait que d'autres chasseurs soient venus de loin et rodent dans la région. 
+		Au cas où vous auriez oubliez à quoi ressemble une Luxlithe, il y en une derrière nous.
+:Wol 	Une pierre aussi scintillante est inoubliable.
+:Yugon 	Vous avez toutes les informations, je n'ai rien à ajouter. Que la pierre brille en vous !
+:Yaga 	Si vous avez des questions venez nous les poser. Que la pierre brille en vous jeunes chasseurs.
+:Ska 	Merci à vous. Nous partons à la chasse !
+:Yugon	J'ai oublié de vous donner votre récompense pour la précédente tâche. Prenez ceci avec vous.
+
+[Si l'honneur est supérieur à 32, somme reçue est de 175 sinon elle est de 125]
+
+:Yugon	N'oubliez pas de bien vous préparer avant de partir.
 
 
---------
-Scène 1.2
---------
-
-	Dans la forêt, devant la luxlithe. Nos héros.
-
-:Wol Voilà la luxlithe ! 
-:Ada Elle n'est pas très brillante celle-ci.
-:Wol Oui, c'est assez perturbant d'ailleurs.
-:Ska Vous avez entendu ce son ?
-:Wol Oui, cela ne présage rien de bon. Une clochette dans une forêt, c'est pas courant.
-:Ska Regardez ! Quelque chose vient droit sur nous !
-:Ada Preparez vous à combattre !
-:Wol À mort !
-
---------
 Scène 2
 --------
+	Dans la forêt, devant la luxlithe. Nos héros.
 
-	De retour de la mission. Dans la maison du chef du village. Nos héros, Yugon et Yaga.
+:Wol	Voilà la luxlithe ! 
+:Ada	Elle n'est pas très brillante celle-ci.
+:Wol	Oui, c'est assez perturbant d'ailleurs.
 
-:Yugon Tiens, voilà nos braves chasseurs. Vous avez retrouvez la pierre ?
-:Wol Oui, la voici.
-:Yaga Elle est bien petite, je pensais qu'elle aurait été de taille normale.
-:Yugon Mmh cela ne suffit pas comme réserve. Yaga, aurais-tu un indice avec ton lithographe sur l'emplacement d'une autre Luxlithe ?
-:Yaga Attends je vais regarder.
-:Ada Yugon saurais-tu quelque chose à propos de bruit de clochette près des pierres ?
-:Yugon Des bruits de clochettes ? Je n'ai jamais entendu parler que les pierres faisaient du bruit. Pourquoi cette question ?
-:Ska Nous avons entendu des bruits au moment de récupérer la pierre...
-:Wol Et un monstre nous a alors attaqués.
-:Yugon Un monstre ? C'est assez banal, nan ?
-:Ada Oui mais il semblait réagir aux bruits émis par la clochette.
-:Yaga Pour votre clochette je ne peux pas vous aider, mais il semblerait que sur le mont *** il y ait une autre Luxlithe. Je vais demander à Puck de vous préparer un bateau.
-:Yugon Aah ! Voilà une bonne nouvelle. Partez de suite récupérer cette pierre.
-Et pendant que j'y pense voici votre butin pour la pierre que vous avez ramenée.
-:Ska Entendu ! Nous y allons.
+[Un bruit de clochette se fait entendre.]
+
+:Ska	Vous avez entendu ce bruit ?
+:Wol 	Oui, parfaitement ! Cela ne présage rien de bon. 
+		Ce n'est pas dans une forêt que l'on entend un bruit comme celui-ci.
+
+[Le bruit recommence.]
+
+:Ska	C'est peut-être le bruit du vent dans les arbres, non ?
+:Ada	T'y crois vraiment ?
+:Ska	Non...j'essayais de me rassurer.
+:Wol	Là-bas sur la droite, il y a quelque chose qui bouge.
+:Ska	Un monstre arrive.
+:Ada	Préparez-vous les amis.
+:Wol 	À mort !
+
+
+Scène 3
+-------
+	[De retour de la mission. Dans la maison du chef du village.]
+
+:Yugon	Voilà nos braves chasseurs. Vous avez retrouvez la pierre ?
+:Wol	Oui, la voici.
+
+[Wol remet la pierre à Yugon.]
+
+:Yaga	Elle est bien petite...je pensais qu'elle aurait été plus grosse.
+:Yugon	Cela ne va pas suffir pour notre réserve. Yaga, aurais-tu un indice l'emplacement d'une autre Luxlithe avec ton lithographe ?
+:Yaga	Attends, je vais essayer de la forcer.
+
+[Yaga part sur le lit.]
+
+:Ada	Nous avons entendu un bruit de clochette lorsque nous étions près de la pierre, cela te dit quelque chose Yugon ?
+:Yugon	Des bruits de clochettes ? Ça ne me dit rien. Peut-être le bruit du vent dans les arbres.
+:Ska	Nous avons entendu ces bruits au moment de récupérer la pierre...
+:Wol	...et paf ! Un monstre nous a attaqués.
+:Yugon	Un monstre ? C'est assez banal.
+:Ada	Oui, mais il semblait réagir aux bruits émis par la clochette.
+
+[Yaga revient.]
+:Yaga	Il semblerait que sur le mont *** il y ait une autre Luxlithe. Je vais demander à Puck de vous préparer un bateau.
+		Quant à votre histoire de clochettes, je n'ai jamais entendu le moindre fait sur un tel bruit près des Luxlithes.
+:Yugon	Une bonne nouvelle pour cette pierre au mont ***. Partez de suite récupérer cette pierre, compris ?
+:Ska	Avons-nous le choix ? Je ne crois pas.
+:Yugon	Pendant que j'y pense voici votre récompense.
+
+[Somme dépend du niveau d'honneur.]
+
+:Ada 	Merci, nous allons rejoindre Puck.
+:Yaga	Son bateau...si je puis dire, sera sur la plage.
+		Que la pierre brille en vous !
+
+Scène 4
+-------
+	Sur le radeau de Puck, près de la plage.
+
+:Puck	Oulà moussaillon, qu'avons nous là ? Trois jeunes chasseurs ?
+:Ada	Oui, et qui partent à la chasse à la Luxlithe.
+:Puck	N'est-ce pas une aventure dangeureuse pour une aussi joli demoiselle ?
+:Ada	Je ne ferais pas de commentaires. Emène-nous au mont *** Puck, s'il te plaît.
+:Puck	Ha ha ! Quelle caractère, c'est ce que j'aime chez un femme !
+:Ada	...
+:Wol	Assez discutailler, partons.
+:Puck	Bien, je vois que vous êtes préssés. Alors en bâteau !
+
+[Ils naviguent à travers l'océan.]
+
+:Puck	Sur le mont se trouve une vieille colonne que l'on peut allumer. Allumer la, pour me dire que vous voulez revenir.
+:Ska	C'est noté.
+:Puck	Bonne chance à vous. Que la pierre brille en vous.
+
+Scène 5
+-------
+	Au sommet du mont ***
+
+:Ada	Pfiou...qu'il est haut ce mont.
+:Wol	Allez, c'est fini maintenant. Nous avons atteint la pierre.
+:Ada	Aah oui, elle est scintillante celle-ci.
+:Ska	Je la récupère.
+
+[Des sons de clochettes se font entendre.]
+
+:Ada	Non ! Ce n'est pas possible, encore ce bruit de clochettes.
+:Ska	Oui, je les ai bien entendus. Hâtons-nous de rentrer avant qu'un monstre ne se pointe.
+:Wol	Ska a raison.
+:Ada	Wol tu fuis les monstres ? Toi qui aime tant te battre.
+:Wol	Oui, mais les monstres sont assez coriaces en ce moment.
+:Ska	Allez, on file !
+
+[En descendant, les bruits reviennent.]
+
+:Ada	Ah non !
+:Wol	Derrière-nous !
+:Ska	Mais...mais c'est un griffon !
+:Ada	Non, une chimère !
+:Wol	À l'assaut !
+
+[Une fois la chimère abattue.]
+
+:Wol	Eh ben...c'était pas facile.
+:Ada	Oh que oui...c'était un sacré monstre.
+:Ska	Allez on redescend illico presto avant qu'un autre débarque.
+
+Scène 6
+-------
+	De retour sur le radeau de Puck.
+
+:Puck	Oulà, vous semblez bien fatigués.
+:Ska	Nous avons affronté un griffon.
+:Ada	Une chimère, pas un griffon.
+:Puck	Une chimère ?
+:Wol	Une chimère !
+:Puck	Les chimères ne viennent pas dans les environs, ce n'est pas le climat qu'elles adoptent. C'est très étrange.
+:Ska 	Aussi étrange que l'on aimerais partir vite.
+:Puck	À vos ordres ! En bâteau les amis.
+
+Scène 7
+-------
+	De retour dans la maison de Yugon, à Balfort.
+
 
 
  
