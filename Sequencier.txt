@@ -92,6 +92,7 @@ Scène 3
 :Ada	Oui, mais il semblait réagir aux bruits émis par la clochette.
 
 [Yaga revient.]
+
 :Yaga	Il semblerait que sur le mont *** il y ait une autre Luxlithe. Je vais demander à Puck de vous préparer un bateau.
 		Quant à votre histoire de clochettes, je n'ai jamais entendu le moindre fait sur un tel bruit près des Luxlithes.
 :Yugon	Une bonne nouvelle pour cette pierre au mont ***. Partez de suite récupérer cette pierre, compris ?
@@ -172,6 +173,58 @@ Scène 7
 -------
 	De retour dans la maison de Yugon, à Balfort.
 
+:Yugon	De retour comme attendus, jeunes chasseurs.
+:Wol	Avec la pierre en prime.
+:Yugon	Que demander de plus ? Tenez voici votre récompense.
+:Ada	Moi j'ai une demande en plus.
+:Yugon 	Laquelle est-ce ?
+:Ada	Nous avons été attaqué par une chimère ! Auriez-vous une idée de ce que fait un chimère dans notre région ?
+:Yugon	Mmh c'est bien étrange en effet. Les chimères préfères les vastes plaines où elles peuvent facilement chasser.
+:Ada	Je suis bien d'accord. 
+:Ska	Il y avait aussi les sons de clochettes, comme la dernière fois.
+:Yaga	J'avais entendu parler d'un rumeur qui disait que les monstres étaient attirés par les Luxlithes. 
+		Je ne sais pas si cela est vrai, mais ça peut expliquer la présence de cette chimère.
+:Ada	Si cette rumeur est vrai, alors oui cela explique sa présence.
+		Reste encore le mystère de la clochette.
+:Wol	Je n'y crois pas trop à cette rumeur. Nous n'avons jamais pu vraiment observer ce phénomène.
+		Certes nous ne chassons depuis des lustres, mais nous avons chassé de nombreuses fois.
+:Ska	Je rejoins Wol. Cette rumeur peut expliquer la présence de la chimère. 
+		Mais nous n'avons jamais vu un tel cas depuis que nous chassons.
+:Ada	Vous avez raison. Mais c'est bien la seule explication que nous avons pour le moment.
+:Yaga	Vous devriez ne plus y penser pour le moment. Nous n'avons pas assez d'éléments pour conclure.
+:Yugon	Oui, et j'aimerais vous demander un dernière requête.
+:Ska	Nous t'écoutons Yugon.
+:Yugon	Voyez-vous, il existe un phare au sud du village. Il servait, il y a jadis, de signalisation pour les bateaux.
+:Ska	C'est le but d'un phare, nan ?
+:Ada	Rah tais-toi donc Ska et laisse-le finir.
+:Yugon	Merci Ada. Les bateaux n'étaient pas de simples bateaux. Ils transportaient des Luxlithes.
+:Wol	Un transport de Luxlithes par bateaux ?
+:Yaga	Oui, il y a longtemps le mont Zhorg avait beaucoup de Luxlithes et était très exploité.
+:Yugon	Je me suis souvenu de cette histoire en parlant à un vieil ami au bar.
+		Et je pense que vous pouvez trouvez des restes de Luxlithes dans ce phare.
+:Wol	Nous devons donc aller inspecter ce phare, c'est bien ça ?
+:Yugon	Tout à fait Wol. Les bateaux étaient lourds à cause du poids des pierres. 
+		Certain s'arretait au phare pour faire une pause durant le voyage.
+:Ada	Mais d'où venait ces bateaux ?
+:Yugon	Ça je ne le sais pas.
+:Yaga	Je pense avoir une réponse. J'avais également appris cette histoire.
+		Les bateaux rejoignaient alors la rivière de Valtordu. 
+		Les pierres étaient transférées sur d'autres bateaux, pour naviguer sur le fleuve
+		Elles continuaient leur chemin jusqu'au lac de Boissec.
+		Un peu plus au nord se trouve la grande ville de Zaun.
+		Je suppose que les Luxlithes étaient destinés à Zaun.
+		Evidemment ce n'est que supposition. Mais c'est tout à fait vraisemblable.
+:Yugon	Eh bien je ne savais pas ça. C'est fascinant.
+:Ada	Et très instructif !
+:Yugon	Quoi qu'il en soit, aller voir au niveau du phare.
+		Que la pierre brille en vous.
+:Wol	C'est entendu.
+:Ska	Vous pouvez compter sur nous chef.
+:Yaga	Que la pierre brille en vous !
+
+
+Scène 8
+-------
 
 
  
