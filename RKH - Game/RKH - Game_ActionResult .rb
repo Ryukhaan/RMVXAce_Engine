@@ -25,6 +25,6 @@ class Game_ActionResult
   # * Determine Final Hit 
   #--------------------------------------------------------------------------
   def hit?
-    @used && !@missed && !@evaded && !@fumble
+    (@used && !@missed && !@evaded && !@fumble) || @critical
   end
 end

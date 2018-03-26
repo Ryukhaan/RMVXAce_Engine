@@ -61,33 +61,36 @@ Ska - Héros.
 	Sexe 	- Masculin
 	Taille	- 1m76
 	Poids	- 69 kg
-	Stats	-
 		
 
-Ska est un jeune homme orphelin, comme beaucoup d'enfants de son âge. C'est le marquis de Balfort et Yaga qui l'ont receuilli. Ses aventures vont l'amené à découvrir la vrai raisons de la mort de ses parents. Une mort mêlant obsurantisme et expérimentations. C'est le premier personnage que l'on contrôle qui nous plonge dans un monde gris, sinistre et triste. Ska est cynique et fainéant, mais il sait reconnaître ses obligations en tant que chasseur de luxlithes. 
+Ska est un jeune orphelin. C'est Yugon chef du petit village de Balfort et Yaga, Prima de ce meme village, qui l'ont receuillis. Ses aventures vont l'amené à découvrir la vrai raisons de la mort de ses parents. Une mort mêlant obscurantisme et expérimentations. 
+Ska est fainéant et n'est pas si courageux pour un chasseur de Luxlithe. Souvent ses actions son irréfléchies, et il apparait comme l'imbécile du groupe.
 
 Ada - Héroïne.
 	Âge	- 20 ans
 	Sexe	- Féminin
 	Taille	- 1m69
 	Poids	- 60 kg
-	Stat	-
 
-Ada est une jeune femme, elle aussi est orpheline. Elle a vu de ses propres yeux la mort de ses parents, elle s'est enfui avec son frère vers le petit village de Balfort. Elle est reparti de zéro une fois arrivée. Yaga lui enseigne tout ce qu'elle sait depuis sa venue. C'est le deuxième personnage que vous rencontrez dès le début du jeu. Très combattive et avec la fougue en elle, elle reste très curieux sur le fonctionnement du monde.
+Ada est une jeune femme. Elle aussi est orpheline, comme Ska. La connaissance et le savoir sont pour elle essentiels. Selon elle, sans eux on ne pourrait pas comprendre le monde qui nous entoure. Acceuillie par Yaga, elle acquiert de nombreuses connaissanes auprès d'elle. 
+Très combattive, curieuse et érudite, elle réfléchit toujours avant de prendre un décision.
 
 
 Wol - Héros
-	Âge	- 25 ans
+	Âge	- 23 ans
 	Sexe	- Masculin
 	Taille	- 1m82
 	Poids	- 72 kg
-	Stat	-
 
-Cha est un homme discret. Son surnom vient du fait des ses capacités similaire à celle d'un chat. Il est agile, fûté et rapide. Il a grandi dans la ville de Tange puis il a parcouru le monde pour se retrouver dans le petit village de Balfort.
+Wol est un homme assez discret. Il a grandi à Balfort, avec Ska et Ada. Ce qu'il prefère c'est affronter ses ennemies, les voir mourir. Il est peu locace, mais onnait beaucoup de choses. Pour lui, la force est une solution à beaucoup de problèmes.
 
 
-Chapitre 1
-----------
+Yugon 	- Chef du village de Balfort
+Yaga	- Prima du village de Balfort
+Bungle	- 
+Dazhbog	-
+Zoria	-
+Koschei	-
 
 
 

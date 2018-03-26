@@ -226,6 +226,82 @@ Scène 7
 Scène 8
 -------
 
+	En haut du phare.
+
+:Ska	Regardez ! Voilà une Luxlithe.
+:Wol	En effet. Elle est assez grosse en plus.
+:Ada	Vous ne trouvez pas ça un peu facile ?
+:Ska	Que veux-tu dire ?
+:Ada	Nous montons tout le phare, sans l'ombre d'une Luxlithe.
+		Et là, au sommet il y en a une. Et bien placée...
+:Wol	Maintenant que tu le dis. Ça fait très louche.
+:Ska	Roh quelle rabat-joie. Il y en a une, on la prend et puis c'est tout.
+:Wol	Dis comme ça...
+
+[Bruit de clochettes.]
+
+:Wol	Ça devient lassant ces bruits.
+:Ada	Sortez vos armes !
+
+[Bungle arrive des escaliers et bruit de clochettes.]
+
+:???	Ha ha ha ! Vous etes tombés dans mon piège.
+		Vous etes encore plus naifs que je ne le pensais.
+:Ada	Qui es-tu ?
+:???	Je me présente. Je me nomme Bungle, et je suis un mercenaire,
+		un chasseur de chasseurs et homme à tout faire.
+:Ska	Tu chasses les chasseurs de Luxlithes ?!
+:Bungle	Oui, c'est un passe-temps très divertissant. Surtout avec vous.
+:Ada	Mais pour quelle raison ?
+:Bungle	L'argent et le plaisir. Je suis merenaire à la base. Mais par les
+		temps qui court ce n'était plus à la mode. Alors je me suis reconverti.
+:Wol	Pas la peine de raconter ta vie.
+:Bungle	Grr...malpoli !
+:Ada	La chimère c'était donc toi.
+:Bungle	Oui. Vous l'avez tuée. Elle m'avait couté plus de 1000\G.
+:Ska	C'est une sacré somme ! Vous pensez qu'on pourra s'en acheter ?
+:Wol	Quand Yugon aura décidé d'etre moins radin sur les récompenses...
+:Ada	J'en parlerais à Yaga. On pourrait peut-etre négocier ?
+:Bungle Mhum...mhum... Je suis toujours là bande d'ingrats. 
+		Vous allez le regretter !
+		Je vais récupérer ma Luxlithe et je vais vous tuer par la meme ocassion.
+:Ska	Ta Luxlithe ? Ah non maintenant elle est à nous.
+:Bungle Assez parler ! Je vais vous montrer que je ne suis pas un amateur !
+
+[Flash lumineux provenant des torches]
+
+:Ada	Mais que fait-il ?
+:Wol	Surement un leurre, soyez attentifs.
+:Bungle Je vais vous montrer le véritable pouvoir des Luxlithes.
+
+[Nouveaux flashes]
+
+:Ada	Le vrai pouvoir des Luxlithes ?
+:Bungle	Goutez à ce pouvoir, misérables !
+
+[Combat.]
+
+:Wol	Alors c'est tout ce que tu as dans le ventre Bungle ?
+:Ska	Les doigts dans le nez !
+:Bungle ...Vous etes très forts, je le reconnais. Il me reste plus d'un tour dans mon sac.
+
+[Nouveaux flashes]
+
+:Bungle	Voici un Urobach enore plus gros !
+		Ha ha ha !
+		...
+		Mais...mais...
+:Ska	Oulà, il devient de plus en plus gros !
+:Bungle	Non, j'ai mis trop de magie ! Il va exploser
+
+[Sursaut]
+
+:Ada	Ça sent le roussi !
+
+[Explosion]
+
+
+
 
  
 

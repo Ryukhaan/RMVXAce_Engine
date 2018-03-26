@@ -50,26 +50,11 @@ class Game_Battler < Game_BattlerBase
   end
 
   #--------------------------------------------------------------------------
-  # *~ Weapon Endurance Cost
-  #--------------------------------------------------------------------------
-  def pay_weapon_cost
-    if weapons[0].nil?
-      self.tp -= 5
-    else
-      self.tp -= weapons[0].cost unless self.enemy?
-      self.tp += state_bonuses(self, "END") unless self.enemy?
-    end
-  end
-
-  #--------------------------------------------------------------------------
   # *~ OVERWRITE Use Skill/Item
   #    Called for the acting side and applies the effect to other than the user.
   #--------------------------------------------------------------------------
   def use_item(item)
     pay_skill_cost(item) if item.is_a?(RPG::Skill)
-    if item.is_a?(RPG::Skill)
-      pay_weapon_cost unless item.id == 2 # Recharge
-    end
     consume_item(item)   if item.is_a?(RPG::Item)
     item.effects.each {|effect| item_global_effect_apply(effect) }
   end
@@ -78,8 +63,8 @@ class Game_Battler < Game_BattlerBase
   # *~ OVERWRITE Determine Action Speed
   #--------------------------------------------------------------------------
   def make_speed
-    #@speed = @init + Random.rand(10)
-    @speed = 4 + Random.rand(5)
+    @speed = @init + Random.rand(10)
+    #@speed = 4 + Random.rand(5)
   end
 
   #--------------------------------------------------------------------------
@@ -101,6 +86,7 @@ class Game_Battler < Game_BattlerBase
   #--------------------------------------------------------------------------
   def regenerate_tp
     self.tp = self.tp
+    self.tp += self.level if foi > 8
   end
 
   #--------------------------------------------------------------------------
@@ -119,12 +105,14 @@ class Game_Battler < Game_BattlerBase
       @result.evaded = (hit_rate < evasion)
     end
 
-    if @result.hit? 
+    if @result.hit?
       unless item.damage.none? 
         if item.physical?
           make_physical_damage(user, item)
         elsif item.magical?
           make_magical_damage(user, item)
+        else
+          make_heal_value(user, item)
         end
         execute_damage(user)
       end
@@ -151,11 +139,11 @@ class Game_Battler < Game_BattlerBase
     if @result.critical
       2.times do 
         value += item.damage.eval(user, self, $game_variables)
-        value += modificateur.(user.foi)
+        value += modificateur(user.foi)
       end
     end
     value *= rec if item.damage.recover?
-    #value *= item_element_rate(user, item)
+    value *= item_element_rate(user, item)
     @result.make_damage(value.to_i, item)
   end
 
@@ -179,7 +167,7 @@ class Game_Battler < Game_BattlerBase
     end
     value -= 4 if user.dual_wield? # && !passiv.dual_wield
     value += state_bonuses(user, "DMG")
-    #value += armors[0].def if !armors.empty?
+    value += armors[0].damage_reduction if !armors.empty?
     value = [value, 1].max
     @result.make_damage(value.to_i, item)
   end
@@ -196,13 +184,14 @@ class Game_Battler < Game_BattlerBase
     # Real Hit Rate
     value = user.dex + user.level
     value += item_range_physical(user, item, weapon) if !weapon.nil?
-    value += modificateur(user.int) if item.magical? 
+    value += modificateur(user.foi) if item.magical? 
     value += state_bonuses(user, "HIT")
     if evasion - value > 0
       value += 1 + Random.rand(6)
     else
       value -= 1 + Random.rand(6)
     end
+    puts "EVA : " + evasion.to_s + " vs HIT : " + value.to_s
     return value
   end
 
