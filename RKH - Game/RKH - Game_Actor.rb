@@ -8,26 +8,17 @@
 
 class Game_Actor < Game_Battler
 
-  def learn?(skill)
-    value = true
-    value = value && (@level >= skill.level)
-    unless skill.class_id.empty?
-      temp = skill.class_id.map { |x| 
-        x == @class_id
-      }.any?
-      value = value && temp
-    end
-    unless skill.skills.empty?
-      temp = skill.skills.map { |x| 
-        @skills.include?(x)
-      }.all?
-      value = value && temp
-    end
-    skill.params.each_with_index { |param, index|
-      value = value && (param_alone(index) >= param)
-    }
-    value
+
+  #--------------------------------------------------------------------------
+  # *~ OVERWRITE Equippable 
+  #--------------------------------------------------------------------------
+  alias :equippable_ex :equippable?
+  def equippable?(item)
+    return equippable_ex(item) if item.is_a?(RPG::EquipItem) #&& item.is_template?
+    return false if item.is_a?(RPG::Weapon) && item.durability.zero?
+    return equippable_ex(item)
   end
+
   #--------------------------------------------------------------------------
   # *~ OVERWRITE Object Initialization
   #--------------------------------------------------------------------------
@@ -37,41 +28,40 @@ class Game_Actor < Game_Battler
     @init = 4
   end
 
-  def param_alone(param_id)
-    self.param(param_id)
-  end
-  #--------------------------------------------------------------------------
-  # *~ OVERWRITE Get Added Value of Parameter
-  #--------------------------------------------------------------------------
 
   #--------------------------------------------------------------------------
   # *~ OVERWRITE Get Equipment Slot Array
   #--------------------------------------------------------------------------
   def equip_slots
-    return [0,0,3] if dual_wield?       # Dual wield
-    return [0,1,3]                      # Normal
+    #return [0,0,3] if dual_wield?       # Dual wield
+    return [0,0,3]                      # Normal
   end
 
-  alias item_estimate_hit_rate_ex item_estimate_hit_rate
-  def item_estimate_hit_rate(user, item)
-    value = item_estimate_hit_rate_ex(user, item)
-    unless user.enemy?
-      user.skills.each { |skill|
-        if skill.passiv?
-          puts "Passiv Skill"
-        end
-      } 
-    end
-    return value
-  end
+  
+  #--------------------------------------------------------------------------
+  # *~ OVERWRITE Hit Rate
+  #--------------------------------------------------------------------------
+  def hit_rate(user, item)
+        # Critic hit
+    is_critical?(user)
 
+    # Hit Rate Estimation
+    value = 1 + Random.rand(100)
+    eva   = 90 - physical_evasion
+    puts "Enemy : " + value.to_s + " vs " + eva.to_s
+    return (value >= eva)
+  end
+  
   #--------------------------------------------------------------------------
-  # * Learn Skill
+  # *~ OVERWRITE Calculate Damage
   #--------------------------------------------------------------------------
-  def learn_skill(skill_id)
-    unless skill_learn?($data_skills[skill_id])
-        @skills.push(skill_id) if learn?($data_skills[skill_id])
-        @skills.sort!
+  def make_damage_value(user, item)
+    value = item.damage.eval(user, self, $game_variables)
+    puts "Damage : " + value.to_s
+    value *= item_element_rate(user, item)
+    if @result.critical
+      value = apply_critical(value)
     end
+    @result.make_damage(value.to_i, item)
   end
 end
