@@ -8,9 +8,9 @@
 
 class Game_ActionResult
   #--------------------------------------------------------------------------
-  # * Determine Final Hit 
+  # *~ OVERWRITE Determine Final Hit 
   #--------------------------------------------------------------------------
-  #def hit?
-  #  (@used && !@missed && !@evaded && !@fumble) || @critical
-  #end
+  def hit?
+    (@used && !@missed && !@evaded ) || @critical
+  end
 end

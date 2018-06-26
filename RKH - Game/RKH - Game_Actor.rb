@@ -42,12 +42,12 @@ class Game_Actor < Game_Battler
   # *~ OVERWRITE Hit Rate
   #--------------------------------------------------------------------------
   def hit_rate(user, item)
-        # Critic hit
+    # Critic hit
     is_critical?(user)
 
     # Hit Rate Estimation
     value = 1 + Random.rand(100)
-    eva   = 90 - physical_evasion
+    eva   = user.mmp - evasion
     puts "Enemy : " + value.to_s + " vs " + eva.to_s
     return (value >= eva)
   end

@@ -8,53 +8,21 @@
 
 class Game_Battler < Game_BattlerBase
   attr_accessor :init
-
-
-  #--------------------------------------------------------------------------
-  # *~ OVERWRITE Test Effect
-  #--------------------------------------------------------------------------
-  #def item_effect_test(user, item, effect)
-  #  case effect.code
-  #  when EFFECT_RECOVER_HP
-  #    hp < mhp || effect.value1 < 0 || effect.value2 < 0
-  #  when EFFECT_RECOVER_MP
-  #    mp < mmp || effect.value1 < 0 || effect.value2 < 0
-  #  when EFFECT_ADD_STATE
-  #    !state?(effect.data_id)
-  #  when EFFECT_REMOVE_STATE
-  #    state?(effect.data_id)
-  #  when EFFECT_ADD_BUFF
-  #    !buff_max?(effect.data_id)
-  #  when EFFECT_ADD_DEBUFF
-  #    !debuff_max?(effect.data_id)
-  #  when EFFECT_REMOVE_BUFF
-  #    buff?(effect.data_id)
-  #  when EFFECT_REMOVE_DEBUFF
-  #    debuff?(effect.data_id)
-  #  #when EFFECT_LEARN_SKILL
-  #  #  actor? && !skills.include?($data_skills[effect.data_id]) &&
-  #  #    learn?($data_skills[effect.data_id])
-  #  else
-  #    true
-  #  end
-  #end
   
   #--------------------------------------------------------------------------
   # *~ OVERWRITE Addable State
   #--------------------------------------------------------------------------
-  #alias state_addable_ex state_addable?
-  #def state_addable?(state_id)
-  #  possible = state_addable_ex(state_id)
-  #  dice = 1 + Random.rand(100)
-  #  resist = interpolate
-  #  $data_states[state_id].type < 0 ? possible && (dice < resist) : possible
-  #end
+  alias state_addable_ex state_addable?
+  def state_addable?(state_id)
+    possible  = state_addable_ex(state_id)
+    nrand     = 1 + Random.rand(100)
+    $data_states[state_id].type < 0 ? possible && (dice < resist) : possible
+  end
 
   #--------------------------------------------------------------------------
   # *~ OVERWRITE Determine Action Speed
   #--------------------------------------------------------------------------
   def make_speed
-    #@speed = @init + Random.rand(10)
     @speed = @init + (Random.rand(3) - 1)
   end
 
@@ -95,7 +63,7 @@ class Game_Battler < Game_BattlerBase
     end
 
     # Skill Calculate Hit Rate
-    if item.physical?
+    if item.physical? || item.magical?
       @result.evaded = hit_rate(user, item)
     else
       @result.evaded = false

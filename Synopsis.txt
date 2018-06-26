@@ -24,12 +24,12 @@ Des groupes de personnes cherchent des solutions à ce problème d'épuissement 
 Un monde mystérieux
 
 
-Le jeu commence avec un groupe de trois chasseurs, Ska, Ada et Wol. Ils se rendent dans la maison du chef du village de Balfort. Yugon, le chef du village, les a faits venir car Yaga, la Prima résidant à Balfort, a détecté une luxlithe dans la fôret au nord du village. Au cœur de la forêt la pierre brille, mais un monstre protège ce butin. 
-Le monstre surprend le groupe par sa force inhabituelle. De retour à Balfort, Yugon est deçu par la taille de la luxlithe, elle ne pourra protéger le village bien lontemps. Il faut des réserves. Yaga a une vision, elle leur demande d'aller chercher une autre pierre. Celle-ci se situe sur l'île à l'ouest d'ici. C'est à l'aide d'un petite barque que le groupe s'y rend.
+Le jeu commence avec un groupe de trois chasseurs, Ska, Ada et Wol. Ils se rendent dans la maison du chef du village de Balfort. Yugon, le chef du village, les a faits venir. Yaga, la Prima résidant à Balfort, a détecté une luxlithe dans la fôret au nord du village. Au cœur de la forêt la pierre brille, mais un monstre protège ce butin. 
+Le monstre surprend le groupe par sa force inhabituelle. Un son de clochette se fait entendre. De retour à Balfort, Yugon est deçu par la taille de la luxlithe, elle ne pourra protéger le village bien lontemps. Il faut des réserves. Yaga a une vision, elle leur demande d'aller chercher une autre pierre. Celle-ci se situe sur l'île à l'ouest d'ici. C'est à l'aide d'un petite barque que le groupe s'y rend.
 
-Au plus haut de la montagne une surprise les attend, un monstre garde la pierre. Le combat est tout aussi ardu que le précédent. Les jeunes chasseurs sont encore surpris, un tel monstre ne vient pas dans les environs normalement. De retour à Balfort, Yugon leur demande une dernière requête. Il a entendu que la luxlithe en haut du phare, qui servait de lumière, n'avait pas été entièrement exploitée. Il leur demande donc d'aller vérifier cette rumeur. Ils acceptent volontiers. 
+Au plus haut de la montagne une surprise les attend, un monstre garde la pierre. Le combat est tout aussi ardu que le précédent. Les jeunes chasseurs sont encore surpris, un tel monstre ne vient pas dans les environs normalement. Le son de clochette se fait aussi entendre. De retour à Balfort, Yugon leur demande une dernière requête. Il a entendu que la luxlithe en haut du phare, qui servait de lumière, n'avait pas été entièrement exploitée. Il leur demande donc d'aller vérifier cette rumeur. Ils acceptent volontiers. 
 
-Le phare se situe au sud du village, au-délà de la montagne. Après la traversée du mont et l'ascension du phare, ils arrivent devant la luxlithe. Ce n'était pas une rumeur. Cependant, un étrange personnage y est déjà présent. Il se nomme Malleus. Malleus les expédie loin du phare à l'aide d'un magie, ou plutôt le bombo explose. Ils arrivent sur une île qui leur est inconnue.
+Le phare se situe au sud du village, au-délà de la montagne. Après la traversée du mont (caverne) et l'ascension du phare, ils arrivent devant la luxlithe. Ce n'était pas une rumeur. Cependant, un étrange personnage y est déjà présent. Il se nomme Malleus. Malleus les expédie loin du phare à l'aide d'une magie, ou plutôt le monstre crée par Malleus explose. Ils arrivent sur une île qui leur est inconnue.
 
 --- Chapitre 2
 Un chemin de retour
@@ -87,7 +87,7 @@ Wol est un homme assez discret. Il a grandi à Balfort, avec Ska et Ada. Ce qu'i
 
 Yugon 	- Chef du village de Balfort
 Yaga	- Prima du village de Balfort
-Bungle	- 
+Malleus	- 
 Dazhbog	-
 Zoria	-
 Koschei	-

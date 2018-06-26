@@ -2,7 +2,7 @@ Ouverture :
 	Contes & Légendes
 ---------
 Présentation de Yaga
-Choix des classes et des caractéristiques.
+Choix des classes
 + Conte/Poème
 
 +++++++++++++++
@@ -17,21 +17,26 @@ Scene 1
 :Ada	Ça faisait longtemps que Yugon ne nous avez pas convoqués tous les trois.
 :Ska	Oui. Je me demande bien ce qu'il nous veut.
 :Ada	Allons ! C'est sûrement pour une chasse à la Luxlithe.
-:Ska	Ou bien pour réparer son toit, nan ? Il nous demande pleins de services.
-:Ada	Nous allons le savoir tout de suite.
+:Ska	Ou bien pour réparer son toit, nan ? Il nous demande pleins de services en ce moment.
+:Ada	J'en doute. Nous allons le savoir tout de suite.
 
 [Ils sont devant Yugon et Yaga, Wol arrive tranquillement.]
 
 :Yugon	Bien le bonjour. Wol n'est pas avec vous ?
 :Ska 	Bonjour Yugon, il arrive dans un instant. Il devait couper du bois.
-:Yugon 	Commençons sans lui. Comme l'hiver arrive, nous avons pensé, Yaga et moi, qu'il nous faudrait une réserve 
-		de Luxlithes. Cela serait plus prudent et plus sage. 
-:Ada	Nous allons donc partir à la chasse à la Luxlithe ?
+:Yugon 	Cela ne fait rien, commençons sans lui. 
+		Comme l'hiver arrive, nous avions pensé, Yaga et moi, qu'il nous faudrait une réserve de Luxlithes. 
+		Cela serait plus prudent et plus sage. 
+:Ska	Nous partons à la chasse à la Luxlithe ?
 :Yugon	Vous allez partir à la chasse à la Luxlithe !
-		Yaga va vous dire où vous pouvez en trouver. Je t'en prie Yaga.
+:Ada	Je te l'avais dit Ska.
+:Yugon	Yaga va vous dire où vous pouvez en trouver. Je t'en prie Yaga.
+
+[Wol arrive.]
+
 :Yaga 	Merci Yugon. Bonjour Wol. 
 :Wol	Ai-je raté quelque chose ?
-:Ska	Non, la routine. Luxlithes, tout ça tout ça quoi.
+:Ska	Non, la routine habituelle: une chasse à la Luxlithe.
 :Ada	Enfin, Yugon et Yaga veulent une réserve pour l'hiver.
 :Yaga	Et pour commencer notre réserve, mon vieux lithographe m'indique la position d'une Luxlithe dans la forêt 
 		au nord. 
@@ -43,16 +48,16 @@ Scene 1
 :Wol 	Une pierre aussi scintillante, c'est inoubliable !
 :Yugon 	Vous avez toutes les informations, je n'ai rien à ajouter. Que la pierre brille en vous !
 :Yaga 	Si vous avez des questions venez nous les poser. Que la pierre brille en vous, jeunes chasseurs.
-:Ska 	Nous partons à la chasse !
+:Ska 	À l'aventure !
+
+[Les héros commencent à sortir.]
+
 :Yugon	J'ai oublié de vous donner votre récompense pour la précédente tâche. Prenez ceci avec vous.
-
-[Si l'honneur est supérieur à 32, somme reçue est de 175 sinon elle est de 125]
-
-:Yugon	N'oubliez pas de bien vous préparer avant de partir.
+		N'oubliez pas de bien vous préparer avant de partir.
 
 
 Scène 2
---------
+-------
 	Dans la forêt, devant la luxlithe. Nos héros.
 
 :Wol	Voilà la Luxlithe ! 
@@ -71,44 +76,58 @@ Scène 2
 :Ada	T'y crois vraiment, Ska ?
 :Ska	Non...j'essayais simplement de me rassurer.
 :Wol	Là-bas sur la droite, il y a quelque chose qui bouge.
-:Ska	Un petit oiseau ?.
+:Ska	Un petit oiseau ?
 :Wol	Non. Un monstre ! Préparez-vous les amis.
 :Ada 	À mort !
 
+[Un combat s'engage.]
+
+:Wol	Il était plus coriace que les autres celui-ci.
+:Ska	On a eu chaud...
+:Ada	C'est étrange de rencontrer un monstre aussi fort dans cette forêt.
+:Wol	C'est déjà arrivé, souviens-toi.
+:Ada	Je m'en souviens...mais quand même.
+:Ska	Bon, on retour à Balfort ?
 
 Scène 3
 -------
-	[De retour de la mission. Dans la maison du chef du village.]
+	De retour de la mission. Dans la maison du chef du village.
 
 :Yugon	Voilà nos braves chasseurs. Vous avez fait bonne chasse ?
 :Wol	Oui, voici la pierre.
 
 [Wol remet la pierre à Yugon.]
 
-:Yaga	Elle est petite et peu scintillante...je pensais qu'elle aurait été plus grosse.
+:Yaga	Elle est petite et peu scintillante...
 :Yugon	Cela ne va pas suffir pour notre réserve. 
 		Yaga, aurais-tu un indice l'emplacement d'une autre Luxlithe avec ton lithographe ?
 :Yaga	Attends, je vais regarder. Mais ce n'est pas garanti. Le lithographe prend du temps pour se recharger.
 
 [Yaga part sur le lit.]
 
-:Ada	Nous avons entendu un bruit de clochette lorsque nous étions près de la pierre, ça t'évoque quelque chose Yugon ?
-:Yugon	Des bruits de clochettes ? Ça ne me dit rien. Le bruit du vent dans les arbres surement.
-:Wol	Nous avons entendu ces bruits au moment de récupérer la pierre...
+:Wol	J'ai une question.
+:Yugon 	Je t'écoute, Wol.
+:Wol	Nous avons entendu un bruit de clochette lorsque nous étions près de la pierre, ça t'évoque quelque chose ?
+:Yugon	Des bruits de clochettes ? Ça ne me dit rien. Le bruit du vent dans les arbres sûrement.
+:Wol	Nous avons entendu ces bruits au moment de récupérer la pierre.
 :Ska	...et paf ! Un monstre nous a attaqués.
 :Yugon	Un monstre ? C'est tout ? Dans une foret c'est banal, nan ?
-:Ada	Oui, mais il semblait réagir aux bruits émis par la clochette.
+:Ska	Un monstre très coriace.
+:Ada	En tout cas, plus que la moyenne dans la région.
+:Wol	Et il semblait réagir aux sons émis par la clochette.
+:Yugon	Cela ne me dit vraiment rien. Peut-être que Yaga en sait quelque chose.
 
 [Yaga revient.]
 
 :Yaga	Il semblerait qu'au mont Zorg il y ait une autre Luxlithe. Je vais demander à Puck de vous préparer un bateau.
-		Quant à votre histoire de clochettes, je n'ai jamais entendu le moindre fait sur ce phénomène. Je vais consulter mes vieux ouvrages. Si je trouve le moindre indice, je vous en fait part.
+		Quant à votre histoire de clochettes, je n'ai jamais entendu le moindre fait sur ce phénomène. 
+		Je vais consulter mes vieux ouvrages. Si je trouve le moindre indice, je vous en fait part.
 :Ada	Merci Yaga.
-:Yugon	Une bonne nouvelle pour cette pierre au mont Zorg. 
+:Yugon	Une bonne nouvelle pour cette pierre au mont Zorg. Et un beau mystère pour cette clochette. 
 		Partez de suite récupérer cette pierre, compris ?
 :Ska	Avons-nous le choix ? 
 :Wol	Je ne crois pas.
-:Yugon	Pendant que j'y pense voici votre récompense.
+:Yugon	Pendant que j'y pense, voici votre récompense.
 
 [Somme dépend du niveau d'honneur.]
 
@@ -122,29 +141,34 @@ Scène 4
 	Sur le radeau de Puck, près de la plage.
 
 :Puck	Oulà moussaillon, qu'avons nous là ? Trois jeunes chasseurs ?
-:Ada	Oui, et ils partent à la chasse à la Luxlithe.
+:Ada	Nous partons à la chasse à la Luxlithe.
 :Puck	N'est-ce pas une aventure dangeureuse pour une aussi joli demoiselle ?
 :Ada	Je ne ferais pas de commentaires. Puck, emène-nous au mont Zorg, s'il te plaît.
 :Puck	Ha ha ! Quelle caractère, c'est ce que j'aime chez un femme !
 :Ada	...
-:Wol	Assez discutailler, partons.
-:Puck	Bien, je vois que vous êtes préssés. Alors en bâteau !
+:Wol	Assez discutaillé, partons.
+:Puck	Bien, je vois que vous êtes préssés. Alors en route !
+		Ou plutôt...en bateau !
+:Ska	Ha ha ha ! Elle bien bonne celle-là.
 
 [Ils naviguent à travers l'océan.]
 
-:Puck	Sur le mont se trouve une vieille colonne que l'on peut allumer. Allumez la, pour que je revienne vous chercher.
+:Puck	En haut du mont se trouve une vieille colonne que l'on peut allumer. 
+		Allumez-la pour que je vienne vous rechercher.
 :Ska	C'est noté.
 :Puck	Bonne chance. Que la pierre brille en vous.
 
 Scène 5
 -------
-	Au sommet du mont ***
+	Au sommet du mont Zorg
 
-:Ada	Pfiou...qu'il est haut ce mont.
-:Wol	Allez, c'est fini maintenant. Nous avons atteint la pierre.
-:Ada	Aah oui, elle est scintillante celle-ci.
+:Ska	Pfiou...qu'il est haut ce mont.
+:Wol	Allez, c'est fini maintenant. Nous avons atteint le sommet.
+Ska:	Aaah je vois la pierre.
+:Ada	Qu'elle est scintillante !
 :Ska	Je la récupère et on descend.
 :Wol	Tu es bien pressé Ska. Il y a quelque chose qui ne va pas ?
+:Ska	Oui !
 
 [Des sons de clochettes se font entendre.]
 
@@ -154,7 +178,10 @@ Scène 5
 :Ska	Hâtons-nous de rentrer avant qu'un monstre ne se pointe.
 :Wol	Ska a raison. 
 :Ada	Wol, tu fuis les monstres ? Toi qui aime tant te battre.
-:Wol	Oui, mais les monstres sont assez coriaces en ce moment. Et puis j'ai pas envie de me battre aujourd'hui
+:Wol	Oui, mais le monstre de la dernière fois était coriace. 
+		Je n'ai pas envie d'affronter de nouveau un monstre que celui-là. 
+		Et je ne me sens pas d'humeur à me battre aujourd'hui.
+:Ada	C'est étonnant.
 :Ska	Allez, on file !
 
 [En descendant, les bruits reviennent.]
@@ -167,7 +194,8 @@ Scène 5
 
 [Une fois la chimère abattue.]
 
-:Wol	Eh ben...c'était pas facile.
+:Ska	J'ai crû que nous allions mourir.
+:Wol	Eh ben...c'était pas facile, comme l'autre fois.
 :Ada	Oh que oui...c'était un sacré monstre.
 :Ska	Allez, on redescend illico presto avant qu'un autre monstre débarque.
 
@@ -178,145 +206,230 @@ Scène 6
 :Puck	Oulà, vous semblez bien fatigués.
 :Ska	Nous avons affronté un griffon.
 :Ada	Une chimère, pas un griffon.
+:Ska	Rooh, c'est la même chose.
 :Puck	Une chimère ?
 :Wol	Une chimère !
-:Puck	Les chimères ne viennent pas dans les environs, ce n'est pas le climat qu'elles adoptent. C'est très étrange.
+:Puck	Les chimères ne viennent pas dans les environs, ce n'est pas le climat qu'elles préfèrent. 
+		En la matière, une chimère préfère les tourbières. C'est très étrange.
 :Ska 	Aussi étrange que l'on aimerais partir vite.
-:Puck	À vos ordres ! En bâteau les amis.
+:Puck	À vos ordres ! En bateau les amis.
 
 Scène 7
 -------
 	De retour dans la maison de Yugon, à Balfort.
 
-:Yugon	De retour comme attendus, jeunes chasseurs.
+:Yugon	De retour comme attendus.
 :Wol	Avec la pierre en prime.
 :Yugon	Que demander de plus ? Tenez voici votre récompense.
 :Ada	Moi j'ai une demande en plus.
 :Yugon 	Laquelle est-ce ?
-:Ada	Nous avons été attaqué par une chimère ! Auriez-vous une idée de ce que fait un chimère dans notre région ?
-:Yugon	Mmh c'est bien étrange en effet. Les chimères préfères les vastes plaines où elles peuvent facilement chasser.
-:Ada	Je suis bien d'accord. 
+:Ada	Nous avons été attaqué par une chimère ! 
+		Auriez-vous une idée de ce que fait un chimère dans notre région ?
+:Yugon	Mmh c'est bien étrange en effet. Les chimères préfères les tourbières où elles peuvent facilement chasser.
+:Ada	C'est ce que nous a dit Puck également. 
 :Ska	Il y avait aussi les sons de clochettes, comme la dernière fois.
-:Yaga	J'avais entendu parler d'un rumeur qui disait que les monstres étaient attirés par les Luxlithes. 
+:Yaga	J'avais entendu parler d'une rumeur qui disait que les monstres étaient attirés par les Luxlithes. 
 		Je ne sais pas si cela est vrai, mais ça peut expliquer la présence de cette chimère.
-:Ada	Si cette rumeur est vrai, alors oui cela explique sa présence.
+:Ada	Si cette rumeur est vrai, alors cela explique sa présence.
 		Reste encore le mystère de la clochette.
 :Wol	Je n'y crois pas trop à cette rumeur. Nous n'avons jamais pu vraiment observer ce phénomène.
-		Certes nous ne chassons depuis des lustres, mais nous avons chassé de nombreuses fois.
+		Certes nous ne chassons pas depuis des lustres, mais nous avons chassé maintes fois.
 :Ska	Je rejoins Wol. Cette rumeur peut expliquer la présence de la chimère. 
-		Mais nous n'avons jamais vu un tel cas depuis que nous chassons.
-:Ada	Vous avez raison. Mais c'est bien la seule explication que nous avons pour le moment.
-:Yaga	Vous devriez ne plus y penser pour le moment. Nous n'avons pas assez d'éléments pour conclure.
+		Nous n'avons jamais vu un tel cas depuis que nous chassons.
+:Ada	Vous avez raison. C'est malheureusement la seule explication que nous ayons pour le moment.
+:Yaga	Vous devriez ne plus y penser. Nous n'avons pas assez d'éléments pour conclure.
 :Yugon	Oui, et j'aimerais vous demander un dernière requête.
 :Ska	Nous t'écoutons Yugon.
 :Yugon	Voyez-vous, il existe un phare au sud du village. Il servait, il y a jadis, de signalisation pour les bateaux.
 :Ska	C'est le but d'un phare, nan ?
-:Ada	Rah tais-toi donc Ska et laisse-le finir.
+:Ada	Tais-toi donc Ska et laisse-le finir.
 :Yugon	Merci Ada. Les bateaux n'étaient pas de simples bateaux. Ils transportaient des Luxlithes.
 :Wol	Un transport de Luxlithes par bateaux ?
-:Yaga	Oui, il y a longtemps le mont Zhorg avait beaucoup de Luxlithes et était très exploité.
+:Yaga	Oui, il y a longtemps le mont Zorg avait beaucoup de Luxlithes et était très exploité.
 :Yugon	Je me suis souvenu de cette histoire en parlant à un vieil ami au bar.
-		Et je pense que vous pouvez trouvez des restes de Luxlithes dans ce phare.
-:Wol	Nous devons donc aller inspecter ce phare, c'est bien ça ?
+		Je pense que vous pourriez trouver des restes de Luxlithes dans ce phare.
+:Wol	Nous devons donc inspecter ce phare, c'est bien ça ?
 :Yugon	Tout à fait Wol. Les bateaux étaient lourds à cause du poids des pierres. 
-		Certain s'arretait au phare pour faire une pause durant le voyage.
+		Certain s'y arretait pour faire une pause durant le voyage.
+:Ska	Le phare n'indiquait pas la présence de falaise et de rochers ?
+:Yugon	Non, celui indiquait au contraire de passer près du phare. Le phare est au niveau d'un détroit.
 :Ada	Mais d'où venait ces bateaux ?
-:Yugon	Ça je ne le sais pas.
-:Yaga	Je pense avoir une réponse. J'avais également appris cette histoire.
+:Yugon	Ça, je ne le sais pas.
+:Yaga	Je pense avoir une réponse. J'avais également entendu cette histoire.
 		Les bateaux rejoignaient alors la rivière de Valtordu. 
-		Les pierres étaient transférées sur d'autres bateaux, pour naviguer sur le fleuve
+		Les pierres étaient transférées sur d'autres bateaux, pour naviguer sur le fleuve.
 		Elles continuaient leur chemin jusqu'au lac de Boissec.
-		Un peu plus au nord se trouve la grande ville de Zaun.
-		Je suppose que les Luxlithes étaient destinés à Zaun.
-		Evidemment ce n'est que supposition. Mais c'est tout à fait vraisemblable.
-:Yugon	Eh bien je ne savais pas ça. C'est fascinant.
-:Ada	Et très instructif !
+		Un peu plus au nord se trouve la grande ville de Pyrrhos.
+		Je suppose que les Luxlithes étaient destinés à Pyrrhos.
+		Evidemment ce n'est que supposition.
+:Yugon	Je ne savais pas ça. C'est fascinant.
+:Wol	Et très instructif !
 :Yugon	Quoi qu'il en soit, aller voir au niveau du phare.
 		Que la pierre brille en vous.
 :Wol	C'est entendu.
-:Ska	Vous pouvez compter sur nous chef.
+:Ska	Vous pouvez compter sur nous chef !
 :Yaga	Que la pierre brille en vous !
 
 
 Scène 8
 -------
-
 	En haut du phare.
 
 :Ska	Regardez ! Voilà une Luxlithe.
-:Wol	En effet. Elle est assez grosse en plus.
-:Ada	Vous ne trouvez pas ça un peu facile ?
+:Ada	En effet. Elle est grosse en plus.
+:Wol	Vous ne trouvez pas ça un peu facile ?
 :Ska	Que veux-tu dire ?
-:Ada	Nous montons tout le phare, sans l'ombre d'une Luxlithe.
-		Et là, au sommet il y en a une. Et bien placée...
-:Wol	Maintenant que tu le dis. Ça fait très louche.
+:Wol	Nous montons le phare, sans l'ombre d'une Luxlithe.
+		Et là, au sommet il y en a une. Et bien placée !
+:Ada	Maintenant que tu le dis. Ça fait très louche.
 :Ska	Roh quelle rabat-joie. Il y en a une, on la prend et puis c'est tout.
 :Wol	Dis comme ça...
 
 [Bruit de clochettes.]
 
+:Ska	Encore !? 
 :Wol	Ça devient lassant ces bruits.
 :Ada	Sortez vos armes !
 
-[Bungle arrive des escaliers et bruit de clochettes.]
+[Malleus arrive des escaliers et bruit de clochettes.]
 
 :???	Ha ha ha ! Vous etes tombés dans mon piège.
-		Vous etes encore plus naifs que je ne le pensais.
+		Vous êtes encore plus naifs que je ne le pensais.
 :Ada	Qui es-tu ?
-:???	Je me présente. Je me nomme Bungle, et je suis un mercenaire,
-		un chasseur de chasseurs et homme à tout faire.
-:Ska	Tu chasses les chasseurs de Luxlithes ?!
-:Bungle	Oui, c'est un passe-temps très divertissant. Surtout avec vous.
-:Ada	Mais pour quelle raison ?
-:Bungle	L'argent et le plaisir. Je suis merenaire à la base. Mais par les
-		temps qui court ce n'était plus à la mode. Alors je me suis reconverti.
-:Wol	Pas la peine de raconter ta vie.
-:Bungle	Grr...malpoli !
-:Ada	La chimère c'était donc toi.
-:Bungle	Oui. Vous l'avez tuée. Elle m'avait couté plus de 1000\G.
-:Ska	C'est une sacré somme ! Vous pensez qu'on pourra s'en acheter ?
-:Wol	Quand Yugon aura décidé d'etre moins radin sur les récompenses...
-:Ada	J'en parlerais à Yaga. On pourrait peut-etre négocier ?
-:Bungle Mhum...mhum... Je suis toujours là bande d'ingrats. 
-		Vous allez le regretter !
-		Je vais récupérer ma Luxlithe et je vais vous tuer par la meme ocassion.
-:Ska	Ta Luxlithe ? Ah non maintenant elle est à nous.
-:Bungle Assez parler ! Je vais vous montrer que je ne suis pas un amateur !
+:???		Je me présente. Je me nomme Malleus.
+			Je suis un mercenaire, un chasseur, un magicien...
+			Bref un homme à tout faire.
+:Ska		Tu chasses les Luxlithes ?
+:Malleus	Ha ha ha, bien sûr que non. Ces pierres m'interessent peu, à vrai dire.
+:Ska		Que chasses-tu alors ?
+:Malleus	Je chasse les chasseurs de Luxlithes.
+:Ada		Comment ?
+:Malleus	Vous avez bien entendus. 
+			C'est un passe-temps très divertissant. Surtout avec vous.
+:Wol		Pour quelle raison ?
+:Malleus	L'argent et le plaisir notamment. Je suis chasseur de Luxlithes à la base. 
+			Mais par les temps qui court cela devient moins rentable.
+			Alors je me suis reconverti.
+:Wol		Pas la peine de nous raconter ta vie.
+:Malleus	Grr...malpoli !
+:Ada		La chimère c'était donc toi.
+:Malleus	Oui. Elle m'avait couté plus de 1000\G.
+:Ska		C'est une sacré somme ! Vous pensez qu'on pourra s'en acheter un jour ?
+:Wol		Quand Yugon aura décidé d'etre moins radin sur les récompenses...
+:Ada		J'en parlerais à Yaga. On pourrait peut-être négocier ?
+			Depuis le temps qu'on chasse, une augmentation pourrait se négocier.
+:Malleus 	Mhum...mhum... Je suis toujours là, bande d'ingrats. 
+:Ska		Tu vois, c'est chiant qu'en on raconte sa vie.
+:Malleus	Grr...Vous allez le regretter !
+			Je vais récupérer ma Luxlithe et je vais vous tuer par la même ocassion.
+			Je me suis assez amusé avec vous.
+:Ska		Ta Luxlithe ? Ah non ! Maintenant, elle est à nous.
+:Malleus 	Assez parler ! Je vais vous montrer que je ne suis pas un amateur !
 
 [Flash lumineux provenant des torches]
 
-:Ada	Mais que fait-il ?
-:Wol	Surement un leurre, soyez attentifs.
-:Bungle Je vais vous montrer le véritable pouvoir des Luxlithes.
+:Ada		Mais que fait-il ?
+:Wol		Sûrement un leurre, soyez attentifs.
+:Malleus 	Je vais vous montrer le véritable pouvoir des Luxlithes.
 
 [Nouveaux flashes]
 
-:Ada	Le vrai pouvoir des Luxlithes ?
-:Bungle	Goutez à ce pouvoir, misérables !
+:Wol		Le vrai pouvoir des Luxlithes ?
+:Malleus	Goûtez à ce pouvoir, misérables !
 
 [Combat.]
 
-:Wol	Alors c'est tout ce que tu as dans le ventre Bungle ?
-:Ska	Les doigts dans le nez !
-:Bungle ...Vous etes très forts, je le reconnais. Il me reste plus d'un tour dans mon sac.
+:Ada		Alors c'est tout ce que tu as dans le ventre Malleus ?
+:Ska		Les doigts dans le nez !
+:Malleus 	...Vous etes très forts, je le reconnais. Il me reste plus d'un tour dans mon sac.
 
 [Nouveaux flashes]
 
-:Bungle	Voici un Urobach enore plus gros !
-		Ha ha ha !
-		...
-		Mais...mais...
-:Ska	Oulà, il devient de plus en plus gros !
-:Bungle	Non, j'ai mis trop de magie ! Il va exploser
+:Malleus	Voici un Urobach enore plus gros !
+			Ha ha ha !
+			...
+			Mais...mais...
+:Ska		Oulà, il devient de plus en plus gros !
+:Malleus	Non, j'ai mis trop de magie ! Il va exploser !
 
-[Sursaut]
+[Sursauts]
 
-:Ada	Ça sent le roussi !
+:Wol		Quoi !?
+:Ada		Ça sent le roussi !
+:Ska		Fuyons !
+:Ada		Trop tard !
 
 [Explosion]
 
+++++++++++++++++++++
+	Châmes & Kell			
+++++++++++++++++++++
+Scène 9
+-------
+	Dans un milieu inconnu. De l'autre côté du détroit.
+
+:Ska	Oh...ma pauvre tête. Où suis-je ?
+
+[Regarde à gauche, à droite.]
+
+:Ska	Mais... c'est Wol !
+		Ça va ?
+:Wol	J'ai cru mourir.
+		Finalement, plus de peur que de mal.
+:Ska	Oui j'en ai bien l'impression aussi.
+:Wol	Où est Ada ?
+
+[Regardent dans les environs]
+
+:Ska	Ici, Wol.
+:Wol	Tu te sens bien Ada ?
+:Ada	Ooh...ma pauvre tête. Où suis-je ?
+:Ska	Je ne sais pas, mais tu es saine et sauve.
+:Ada	Je me souviens, Malleus et l'Urobach qui a explosé.
+:Ska	C'est ça.
+:Wol	En haut du phare.
+:Ada	D'ailleurs, ce n'est pas celui-ci que l'on voit au loin ?
+:Wol	Tu as raison !
+		Nous avons été projetés de l'autre côté du détroit.
+:Ska	Commment allons-nous rentrer à Balfort ?
+:Wol	Il y a doit y avoir un village, ou quelque chose dans cette contrée.
+:Ska	Oh...j'ai perdu la Luxlithe !
+:Wol	Eh eh eh, je l'ai pris juste avant l'explosion.
+:Ada	Bien joué, Wol.
+:Wol	Merci. Ne nous attardons pas, allons chercher des habitations.
 
 
+Scène 10
+--------
+	Arrivé à Châmes.
+
+Scène 11
+--------
+	Negociation avec le capitain
+
+Scène 12
+--------
+	Autorisation de la Prima de traverser la forêt de Kell
+
+Scène 13
+--------
+	Dans la forêt de Kell
+
+Scène 14
+--------
+	Rencontre avec le chef
+
+Scène 15
+--------
+	Le vol des Luxlithes
+
+Scène 16
+--------
+	Repère de brigands (encore :p)
+
+++++++++++++++++++++++++++++++++
+	Arvis & Aarin & Berik Ebra				
+++++++++++++++++++++++++++++++++
 
  
 

@@ -58,7 +58,6 @@ class Game_BattlerBase
   alias skill_tp_cost_ex skill_tp_cost
   def skill_tp_cost(skill)
     skill_cost = skill_tp_cost_ex(skill)
-    #decrements_weapon_quantity(skill)
     # Skill is Repos
     return 0 if skill.id == 2
     # Skill is physial and have no cost, then take weapon cost
@@ -71,42 +70,15 @@ class Game_BattlerBase
   end
 
   #--------------------------------------------------------------------------
-  # * Remove One Weapon Quantity
-  #--------------------------------------------------------------------------
-  def decrements_weapon_quantity(skill)
-    unless self.enemy?
-      self.weapons.each_with_index { |weapon, i|
-        if weapon.skills_list.include?(skill.id)
-          puts weapon.name
-          self.equips[i].quantity -=1
-          puts self.equips[i].quantity.to_s
-        end
-      }
-    end
-  end
-
-  #--------------------------------------------------------------------------
   # * Calculate Evade Rate
   #--------------------------------------------------------------------------
-  def physical_evasion
+  def evasion
     # Derivated Stat
-    #value = eva + level
     value = 0
     # Add bonuses or maluses
     value += state_bonuses(self, "EVA")
     [value, 0].max
   end
-
-  #--------------------------------------------------------------------------
-  # * Calculate Evade Rate
-  #--------------------------------------------------------------------------
-  #def magical_evasion
-  #  # Derivated Stat
-  #  value = foi + level
-  #  # Add bonuses or maluses
-  #  value += state_bonuses(self, "FOI")
-  #  [value, 1].max
-  #end
   
   #--------------------------------------------------------------------------
   # * Calculate States Bonuses according to a Parameter
