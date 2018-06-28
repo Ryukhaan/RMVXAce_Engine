@@ -126,10 +126,11 @@ class RPG::Weapon < RPG::EquipItem
 	attr_accessor	:accuracy
 	attr_accessor	:critic
 	attr_accessor	:critic_effect
-	attr_accessor 	:ap_cost
+	attr_accessor :ap_cost
 	attr_accessor	:skills_list
-	attr_accessor 	:max_durability
-
+	attr_accessor :max_durability
+  attr_accessor :durability
+  
 	def cost;		@ap_cost;		end
 	def dmin;		@damage_min;	end
 	def dmax;		@damage_max;	end
@@ -149,7 +150,7 @@ class RPG::Weapon < RPG::EquipItem
 			case line
 			when RKH::ITEM::REGEX::DURABILITY
 				@max_durability		= $1.to_i if $1.to_i >= 0
-				@durability 		= @max_durability
+				@durability 		  = @max_durability
 			when RKH::WEAPON::REGEX::DAMAGE_MIN
 				@damage_min 	= $1.to_i if $1.to_i >= 0
 			when RKH::WEAPON::REGEX::DAMAGE_MAX
@@ -192,15 +193,24 @@ class RPG::Weapon < RPG::EquipItem
 	end
 
 	def repair
-    	@durability = @max_durability
-  	end
+    @durability = @max_durability
+  end
 
-  	alias make_price_ex make_price
-  	def make_price(price)
-    	price = (price * (@durability.to_f / (@max_durability.to_f)))
-    	price = (price * 1.20).to_i
-    end
-
+  alias :make_price_ex :make_price
+  def make_price(price)
+    price = make_price_ex(price)
+    price = (price * (@durability.to_f / (@max_durability.to_f)))
+    price = (price * 1.20).to_i
+    price
+  end
+  
+  alias :make_name_ex :make_name
+  def make_name(name)
+    name = make_name_ex(name)
+    name += " " + @durability.to_s
+    name
+  end
+  
 	def performance
 		mean_dmg 	= 0.5 * (@damage_min + @damage_max) + self.str
 		proba		= (@accuracy_rate.to_f + self.acc)/ 100.0
@@ -256,7 +266,7 @@ class RPG::Skill < RPG::UsableItem
 	end
 
 	def passiv?;	@passiv 	;end
-
+    
 end # RPG::Skill
 
 
@@ -305,7 +315,9 @@ class RPG::Enemy < RPG::BaseItem
 		#}			
 	end
 
-	def init;	@init;	end
+	def init;     @init;  end
+  def armors;   [];     end
+  def weapons;  [];     end
 end # RPG::Enemy
 
 #==============================================================================

@@ -10,12 +10,12 @@ class Game_BattlerBase
   #--------------------------------------------------------------------------
   # * Access Method by Parameter Abbreviations
   #--------------------------------------------------------------------------  
-  alias :strength   :atk
-  alias :stamina    :def 
-  alias :widsom     :mat
-  alias :faith      :mdf
-  alias :accuracy   :agi
-  alias :honour     :luk
+  alias :str  :atk
+  alias :sta  :def 
+  alias :wid  :mat
+  alias :fai  :mdf
+  alias :acc  :agi
+  alias :hon  :luk
 
   #--------------------------------------------------------------------------
   # * Calculate Weapon's TP Cost
