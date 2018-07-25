@@ -117,11 +117,11 @@ Scène 3
 
 [Yaga revient.]
 
-:Yaga	Il semblerait qu'au mont Zorg il y ait une autre Luxlithe. Je vais demander à Puck de vous préparer un bateau.
+:Yaga	Il semblerait qu'au mont Griffeciel il y ait une autre Luxlithe. Je vais demander à Puck de vous préparer un bateau.
 		Quant à votre histoire de clochettes, je n'ai jamais entendu le moindre fait sur ce phénomène. 
 		Je vais consulter mes vieux ouvrages. Si je trouve le moindre indice, je vous en fait part.
 :Ada	Merci Yaga.
-:Yugon	Une bonne nouvelle pour cette pierre au mont Zorg. Et un beau mystère pour cette clochette. 
+:Yugon	Une bonne nouvelle pour cette pierre au mont Griffeciel. Et un beau mystère pour cette clochette. 
 		Partez de suite récupérer cette pierre, compris ?
 :Ska	Avons-nous le choix ? 
 :Wol	Je ne crois pas.
@@ -141,7 +141,7 @@ Scène 4
 :Puck	Oulà moussaillon, qu'avons nous là ? Trois jeunes chasseurs ?
 :Ada	Nous partons à la chasse à la Luxlithe.
 :Puck	N'est-ce pas une aventure dangeureuse pour une aussi joli demoiselle ?
-:Ada	Je ne ferais pas de commentaires. Puck, emène-nous au mont Zorg, s'il te plaît.
+:Ada	Je ne ferais pas de commentaires. Puck, emène-nous au mont Griffeciel, s'il te plaît.
 :Puck	Ha ha ! Quelle caractère, c'est ce que j'aime chez un femme !
 :Ada	...
 :Wol	Assez discutaillé, partons.
@@ -158,7 +158,7 @@ Scène 4
 
 Scène 5
 -------
-	Au sommet du mont Zorg
+	Au sommet du mont Griffeciel
 
 :Ska	Pfiou...qu'il est haut ce mont.
 :Wol	Allez, c'est fini maintenant. Nous avons atteint le sommet.
@@ -243,7 +243,7 @@ Scène 7
 :Ada	Tais-toi donc Ska et laisse-le finir.
 :Yugon	Merci Ada. Les bateaux n'étaient pas de simples bateaux. Ils transportaient des Luxlithes.
 :Wol	Un transport de Luxlithes par bateaux ?
-:Yaga	Oui, il y a longtemps le mont Zorg avait beaucoup de Luxlithes et était très exploité.
+:Yaga	Oui, il y a longtemps le mont Griffeciel avait beaucoup de Luxlithes et était très exploité.
 :Yugon	Je me suis souvenu de cette histoire en parlant à un vieil ami au bar.
 		Je pense que vous pourriez trouver des restes de Luxlithes dans ce phare.
 :Wol	Nous devons donc inspecter ce phare, c'est bien ça ?
@@ -360,7 +360,7 @@ Scène 8
 [Explosion]
 
 ++++++++++++++++++++
-	Châmes & Kell			
+	Charmes & Kell			
 ++++++++++++++++++++
 Scène 9
 -------
@@ -399,11 +399,134 @@ Scène 9
 
 Scène 10
 --------
-	Arrivé à Châmes.
+	Arrivé à Charmes.
 
+:Ska	Voilà des habitations ! Allons nous renseigner auprès de cette personne là-bas.
+:Wol	Celle près du puit ?
+:Ska	Oui, ça doit être le puisatier.
+
+[Nos héros avancent]
+
+:Wol	Quelle bourgarde bien sympathique. C'est calme, c'est reposant.
+:Ska	Bonjour, nous nous sommes égarés. Nous aimerions savoir s'il est possible d'avoir un bâteau.
+:???	Bonjour. Je ne vous ai jamais vu auparavant. Vous êtes nouveaux ? 
+:Ada	Nous venons du village de Balfort...
+:???	Vous vous êtes plus qu'égarés. En tout cas, je connais bien Balfort. 
+		Enfin, surtout ça bière. Vous avez un vrai savoir-faire !
+:Ada	Nous ne sommes pas là pour discuter brasserie. Pourrions-nous emprunter un bateau ?
+:???	Vous êtes bien pressés. Pour un bateau, il faut voir avec le capitaine 
+:Ska	Où se trouve le capitaine ?
+:???	Il était au bar il y a quelques instants.
+:Ska	Merci.
+
+[Ils vont jusqu'au bar]
+
+:Ska	Cool, ils ont de la bière ! 
+:Wol	Une petite pause nous fairez du plus grand bien.
+:Ada	La petite table au fond m'a l'air plaisante. Allons nous y installer
+
+[Le barman arrive]
+
+:Wol	Bien le bonjour. Nous aimerions savoir où est le capitaine.
+:Barman	Vous êtes étrangers, n'est-ce pas ? Que lui voulez-vous au capitaine ?
+:Wol	Nous venons de Balfort, et nous aimerions y retourner.
+:Barman De Balfort ? C'est pas tout près.
+:Ada	Nous avons eu quelques soucis.
+:Barman De sacré soucis pour arrivé à Charmes. 
+		Quant aut capitaine, il est parti préparer la cargaison.
+:Ada	La cargaison ?
+:Barman C'est vrai, nous n'êtes pas de Charmes.
+		Charmes est coupé en deux, une partie sur chaque côtés de la mer. 
+		Le capitaine va livrer sa cargaison sur l'autre rive.
+:Wol	Merci.
+:Barman Vous ne prenez rien à boire ?
+:Ska	Si ! Un tonnelet de bière brune. Vous avez de l'Arvis ?
+:Barman Monsieur est connaisseur. Je vous en ramène. Et vous deux ?
+:Ada	La même.
+:Wol	Une bière de Balfort, vous avez ?
+:Barman Évidemment, je vous ramène ça.
+:Ska	Vous avez de quoi manger ?
+:Barman Nous servons de l'ours à la bière. Il a été tué hier.
+:Ada	Nous en prendrons un.
+:Barman C'est noté.
+:Wol	Vous pouvez aussi mettre une petite salade avec.
+:Barman Pour sûr !
+
+[Ils se restaurent. Paye]
+ 
 Scène 11
 --------
-	Negociation avec le capitain
+	Dans l'entrepôt. Avec le capitaine de Charmes
+
+:Wol	Bonjour, vous êtes le capitain ?
+:Kelpie	Ooh !? Vous m'avez surpris !
+
+[Surprise des héros]
+
+:Ska	Ça alors !
+:Ada	Mais, ça alors !
+:???	Qu'est-ce qu'il y a ?
+:Ada	Tu es Puck ?
+:??? 	Puck ? Je ne connais pas. Qui est-ce ? Je lui ressemble ?
+:Ada	Comme deux gouttes d'eau.
+:Wol	Vous avez aussi la même voix !
+:??? 	Je vous le repète, je ne suis pas Puck. Je me nomme Kelpie.
+:Ska	C'est vraiment surprenant.
+:Kelpie	J'image bien. Vous veniez pourquoi ?
+:Ada	Nous aimerions savoir si nous pouvions vous emprunter un bateau ?
+:Kelpie Ça n'est pas possible. Je dois retourner de l'autre côté de la rive.
+:Ska	Pour la cargaison ?
+:Kelpie	Oui, nous avons trouvé des Luxlithes ainsi que des victuailles.
+:Wol	Nous comprenons, nous sommes nous mêmes chasseur.
+:Kelpie	Cela se voit à votre...dégaine.
+:Wol	Nous sommes si reconnaisable que ça.
+:Kelpie	Ha ha ha ! J'ai pris l'habitude de reconnaître des chasseurs qu'en j'en vois.
+:Ada	Bien, alors pouvez-vous nous ramener chez nous ?
+:Kelpie	Désolé, jeune demoiselle. Je crains que cela ne soit possible.
+		La mer est devenu de plus en plus dangeureuse ces derniers temps.
+		Je ne prends que très peu de risques de faire de longs voyages.
+:Wol	Mince. Nous voilà bloqués à Charmes.
+:Kelpie	Je peux vous anemer sur l'autre rive.
+		Vous pourriez discuter avec notre Prima.
+:Ada	À quoi cela nous serait utile ?
+:Kelpie J'ai pensé que vous pourriez demander à marins de Kell.
+		C'est lieu beaucoup plus grand que Charmes.
+		Avec des bateaux plus solides et plus robuste.
+		Je pense que vous pourriez trouvez votre bateau facilement.
+:Ska	Quel est le rapport avec la traversée de la rive ?
+:Wol	J'imagine que Kell est de l'autre côté.
+:Kelpie	Exact !
+:Ada	Et le lien avec votre Prima ?
+:Kelpie	Pour vous rendre à Kell, il vous faudra traverser une forêt.
+		Mais pour ce faire, il faut l'autorisation de notre Prima.
+:Ada	D'accord. Je crois que nous n'avons pas d'autres choix.
+:Kelpie Quand vous serez prêts, parlez à mon second.
+		Vous arriverez sur l'autre rive. Mais attention, il n'y aura pas d'autre traversée
+		avant un petit moment.
+:Wol	Merci de votre aide.
+:Kelpie Excusez-moi moussaillons, mais j'ai encore des affaires à régler avant de partir.
+
+[Kelpie sort]
+
+:Ada	Mmh...Ce Kelpie, je suis sûr que c'est Puck.
+:Ska	Ah bon ? Pourtant, il nous a dit ne pas le connaître.
+:Wol	Enfin, il a quand même son physique et sa voix.
+:Ada	Ainsi que ces mimiques orales. Il m'a appelé "jeune demoiselle".
+:Ska	Parce que tu n'es pas une "demoiselle" ?
+:Ada	Si, mais c'est pas ce que je voulais dire.
+		Tu n'as pas vu qu'il n'avait pas l'air surpris de nous voir ?
+:Ska	Quelle est le rapport ?
+:Ada	Eh bien, toutes les personnes de Charmes nous demandait d'où nous venions.
+		Mais Kelpie n'a rien demandé.
+:Wol	Exact.
+:Ada	D'autant plus, lorsque nous lui avons demandé de nous ramener chez nous, il
+		n'a pas demandé où. Il devait savoir que nous venions de Balfort.
+		Car Keplie, c'est Puck.
+:Ska	Beaucoup de coincidences, c'est tout.
+:Wol	Il reste à savoir pourquoi il ferait semblant de ne pas nous reconnaître.
+		Et que fait-il à Charmes ?
+
+
 
 Scène 12
 --------
