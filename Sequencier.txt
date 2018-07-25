@@ -49,9 +49,6 @@ Scene 1
 :Yugon 	Vous avez toutes les informations, je n'ai rien à ajouter. Que la pierre brille en vous !
 :Yaga 	Si vous avez des questions venez nous les poser. Que la pierre brille en vous, jeunes chasseurs.
 :Ska 	À l'aventure !
-
-[Les héros commencent à sortir.]
-
 :Yugon	J'ai oublié de vous donner votre récompense pour la précédente tâche. Prenez ceci avec vous.
 		N'oubliez pas de bien vous préparer avant de partir.
 
@@ -78,7 +75,8 @@ Scène 2
 :Wol	Là-bas sur la droite, il y a quelque chose qui bouge.
 :Ska	Un petit oiseau ?
 :Wol	Non. Un monstre ! Préparez-vous les amis.
-:Ada 	À mort !
+:Ada	Je récupère la luxlithe.
+:Wol 	À mort !
 
 [Un combat s'engage.]
 
@@ -164,7 +162,7 @@ Scène 5
 
 :Ska	Pfiou...qu'il est haut ce mont.
 :Wol	Allez, c'est fini maintenant. Nous avons atteint le sommet.
-Ska:	Aaah je vois la pierre.
+:Ska	Aaah je vois la pierre.
 :Ada	Qu'elle est scintillante !
 :Ska	Je la récupère et on descend.
 :Wol	Tu es bien pressé Ska. Il y a quelque chose qui ne va pas ?
