@@ -1,0 +1,31 @@
+- ShopMenu, Display weapon's parameters
+
+- Manage Show/Hide cursor in every menu
+- Balanced Game
+- SaveMenu Display Cursor -> Window_file as seletable / draw cursor
+- Battle Log, display damage infliged by states
+- Status Menu
+- Translation
+- Skills Effect
+
+DEBUG
+
+DONE
+- ChoiceMenu Display Cursor
+- Battle Status Window, hide cursor -> hide window 
+- EquipStatus, Display Armor for armor
+- Activate usable? for actor in battle
+- DistributedMen, Prompt Validation Z near player
+- BattleMenu, Equip Status Menu as an selectable for Actor_Window
+- Music Intro / World
+- Bug in Menu : User Magic, weapon useability
+- Enenmy Speed
+- Introduce Evade
+- DistributedMenu after battle after a level_up
+- Introduce Critic
+- Introduce Faith
+- Correction states
+
+Douraku
+Yanfly
+Himeworks

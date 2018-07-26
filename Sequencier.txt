@@ -379,11 +379,11 @@ Scène 9
 
 [Regardent dans les environs]
 
-:Ska	Ici, Wol.
+:Ada	Je suis ici.
 :Wol	Tu te sens bien Ada ?
-:Ada	Ooh...ma pauvre tête. Où suis-je ?
-:Ska	Je ne sais pas, mais tu es saine et sauve.
-:Ada	Je me souviens, Malleus et l'Urobach qui a explosé.
+:Ada	Un mal de tête...mais ça va.
+:Ska	Tu es saine et sauve !
+:Ada	Aah...je me souviens, Malleus et l'Urobach qui a explosé.
 :Ska	C'est ça.
 :Wol	En haut du phare.
 :Ada	D'ailleurs, ce n'est pas celui-ci que l'on voit au loin ?
@@ -404,10 +404,11 @@ Scène 10
 :Ska	Voilà des habitations ! Allons nous renseigner auprès de cette personne là-bas.
 :Wol	Celle près du puit ?
 :Ska	Oui, ça doit être le puisatier.
+:Ada	Quelle bourgarde bien sympathique. C'est calme, c'est reposant.
 
 [Nos héros avancent]
 
-:Wol	Quelle bourgarde bien sympathique. C'est calme, c'est reposant.
+
 :Ska	Bonjour, nous nous sommes égarés. Nous aimerions savoir s'il est possible d'avoir un bâteau.
 :???	Bonjour. Je ne vous ai jamais vu auparavant. Vous êtes nouveaux ? 
 :Ada	Nous venons du village de Balfort...
@@ -532,13 +533,70 @@ Scène 12
 --------
 	Autorisation de la Prima de traverser la forêt de Kell
 
+:Ska	Nous cherchons la Prima de Charmes. Savez-vous où nous pouvons la trouver ?
+:Prima	Je suis celle que vous cherchez, étrangers.
+		Que me voulez-vous ?
+:Wol	Nous aimerions avoir l'autorisation de traverser la forêt pour aller à Kell.
+:Prima	Puis-je en connaître raison de votre souhait d'aller à Kell ?
+:Ska	Nous voulons retourner d'où l'on vient.
+:Ada	Nous venons de Balfort. Et il nous faudrait un bateau pour y retourner.
+:Prima	Je vois.
+:Ska	Alors ? Nous avons l'autorisation ?
+:Prima	C'est entendu. Vos intentions sont louables.
+		Voici un laisser-passer. Avec ceci vous pourrez pénétrer
+		dans la forêt pour aller en direction de Kell.
+:Ada	Merci.
+
 Scène 13
 --------
 	Dans la forêt de Kell
 
+:Ska	Mais...c'est une luxlithe !
+:Wol	En plein milieu du chemin quand même
+:Ska	Il y en a une, on la prend et puis c'est tout.
+:Wol	Dis-comme ça...
+:Ada	Ça me rappelle quelque chose.
+:Wol	Oui, comme au sommet du phare.
+:Ada	J'y pense. Vous vous souvenez, Malleus à parler du véritable pouvoir des Luxlithes.
+		À votre avis, qu'entendait-il par là ?
+:Ska	J'en ai aucune idée. 
+:Wol	Mise à part le pouvoir des Prima de créer une zone de protection autour d'un village,
+		je ne connais rien d'autre sur les Luxlithes.
+:Ada	Mmmh...
+:Ska	On demandera à Yaga. C'est un Prima, elle doit savoir plus de choses.
+:Wol	Tout à fait.
+:Ada	Il a réussi à invoquer un monstre.
+:Wol	Tu penses que cela à un rapport ?
+:Ada	Eh bien, je n'ai jamais entendu parler d'être vivant capable d'invoquer des monstres.
+:Wol	Ce n'est pas parce que tu n'en a jamais entendu parler que cela n'existe pas.
+		Moi, ça ne me surprendrais pas.
+:Ada	Ah bon ?
+:Ska	Je suis de l'avis de Wol. Nous sommes bien capable de lancer de la magie.
+		Alors pourquoi pas créer des monstres.
+:Ada	Vous marquez un point.
+:Ska	Bon, prenons la Luxlithe et repartons en direction de Kell.
+
+[Bruit de monstre]
+
+:Ada	Vous avez entendu ?
+:Wol	Çela vient de cette direction !
+:Ska	Je n'aime pas ça...
+:Wol	Un monstre ! À l'assaut !
+
+[Monstre vaincu]
+
+:Ska	J'en ai marre !
+:Wol 	De quoi ?
+:Ska	À chaque fois que l'on tombe sur Luxlithe, un monstre déboule de nulle part.
+		Je ne suis pas devenu chasseur pour ce genre de choses !
+:Ada	C'est les risques du métier.
+:Ska	C'était mieux avant !
+:Wol	Allez, Kell nous attends. Ne nous éternisons pas dans cette forêt.
+:Ska	Oui, parce que les monstrs ça commence à suffir ! Non mais !
+
 Scène 14
 --------
-	Rencontre avec le chef
+	Rencontre avec le chef de Kell
 
 Scène 15
 --------
