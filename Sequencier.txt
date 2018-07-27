@@ -434,7 +434,7 @@ Scène 10
 :Barman De Balfort ? C'est pas tout près.
 :Ada	Nous avons eu quelques soucis.
 :Barman De sacré soucis pour arrivé à Charmes. 
-		Quant aut capitaine, il est parti préparer la cargaison.
+		Quant au capitaine, il est parti préparer la cargaison.
 :Ada	La cargaison ?
 :Barman C'est vrai, nous n'êtes pas de Charmes.
 		Charmes est coupé en deux, une partie sur chaque côtés de la mer. 
@@ -522,7 +522,7 @@ Scène 11
 :Wol	Exact.
 :Ada	D'autant plus, lorsque nous lui avons demandé de nous ramener chez nous, il
 		n'a pas demandé où. Il devait savoir que nous venions de Balfort.
-		Car Keplie, c'est Puck.
+		Car Kelpie, c'est Puck.
 :Ska	Beaucoup de coincidences, c'est tout.
 :Wol	Il reste à savoir pourquoi il ferait semblant de ne pas nous reconnaître.
 		Et que fait-il à Charmes ?
@@ -537,9 +537,24 @@ Scène 12
 :Prima	Je suis celle que vous cherchez, étrangers.
 		Que me voulez-vous ?
 :Wol	Nous aimerions avoir l'autorisation de traverser la forêt pour aller à Kell.
-:Prima	Puis-je en connaître raison de votre souhait d'aller à Kell ?
+:Prima	Vous êtes ceux qui venait de Balfort, n'est-ce pas ?
+		Puis-je en connaître raison de votre souhait d'aller à Kell ?
 :Ska	Nous voulons retourner d'où l'on vient.
 :Ada	Nous venons de Balfort. Et il nous faudrait un bateau pour y retourner.
+:Prima	Je vois. Comment êtes vous arrivés à Charmes ? Vous entreprenez un voyage ?
+:Ada	C'est assez compliqué et long.
+:Prima	Je vous écoute, nous avons notre temps.
+:Ada	Nous sommes des chasseurs de Luxlithes. Nous étions dans le phare au sud de Balfort.
+:Prima	Celui-ci qui servait jadis de point de repos aux bateaux ?
+:Wol	Oui.
+:Prima	Que s'est-il passé ?
+:Ada	Au sommet, nous avons rencontré un drôle de personnage.
+:Ska	Il s'appelle Malleus.
+:Prima	Malleus !
+:Wol	Ce nom vous dit quelque chose ?
+:Prima	...
+:Prima	Non. Continuez je vous prie.
+:Ada	Suite à un combat, nous avons été propulsé dans cette région. Et nous voilà.
 :Prima	Je vois.
 :Ska	Alors ? Nous avons l'autorisation ?
 :Prima	C'est entendu. Vos intentions sont louables.
@@ -552,7 +567,7 @@ Scène 13
 	Dans la forêt de Kell
 
 :Ska	Mais...c'est une luxlithe !
-:Wol	En plein milieu du chemin quand même
+:Wol	En plein milieu du chemin tout de même.
 :Ska	Il y en a une, on la prend et puis c'est tout.
 :Wol	Dis-comme ça...
 :Ada	Ça me rappelle quelque chose.
@@ -560,12 +575,13 @@ Scène 13
 :Ada	J'y pense. Vous vous souvenez, Malleus à parler du véritable pouvoir des Luxlithes.
 		À votre avis, qu'entendait-il par là ?
 :Ska	J'en ai aucune idée. 
-:Wol	Mise à part le pouvoir des Prima de créer une zone de protection autour d'un village,
+:Wol	Mise à part le pouvoir des Prima, celui de créer une zone de protection autour d'un village,
 		je ne connais rien d'autre sur les Luxlithes.
 :Ada	Mmmh...
 :Ska	On demandera à Yaga. C'est un Prima, elle doit savoir plus de choses.
-:Wol	Tout à fait.
-:Ada	Il a réussi à invoquer un monstre.
+:Ada	Tu as raison. Mais la Prima de Charmes semblait connaître Malleus.
+:Wol	Tout à fait, cela m'a surpris aussi. Qui est-il au juste.
+:Ada	Il a réussi à invoquer un monstre. Y a-t-il un lien avec la Luxlithe ?
 :Wol	Tu penses que cela à un rapport ?
 :Ada	Eh bien, je n'ai jamais entendu parler d'être vivant capable d'invoquer des monstres.
 :Wol	Ce n'est pas parce que tu n'en a jamais entendu parler que cela n'existe pas.
@@ -574,6 +590,9 @@ Scène 13
 :Ska	Je suis de l'avis de Wol. Nous sommes bien capable de lancer de la magie.
 		Alors pourquoi pas créer des monstres.
 :Ada	Vous marquez un point.
+:Wol	Et si les Luxlithes confèrent de telles pouvoirs, je pense que beaucoup de personnes
+		seraient au courant. Et les Primas feraient autres choses que créer des zones de protection.
+:Ada	C'est vrai, vu comme ça.
 :Ska	Bon, prenons la Luxlithe et repartons en direction de Kell.
 
 [Bruit de monstre]
@@ -592,19 +611,113 @@ Scène 13
 :Ada	C'est les risques du métier.
 :Ska	C'était mieux avant !
 :Wol	Allez, Kell nous attends. Ne nous éternisons pas dans cette forêt.
-:Ska	Oui, parce que les monstrs ça commence à suffir ! Non mais !
+:Ska	Oui, parce que les monstres ça commence à suffir ! Non mais !
 
 Scène 14
 --------
 	Rencontre avec le chef de Kell
 
+:Chef 	Vous êtes les étrangers venus de Balfort.
+:Ska	Les nouvelles vont vite dans votre région.
+:Chef 	Sachez que Charmes est sous ma protection. J'ai ainsi vent de tout ce qui s'y passe.
+:Wol	Puisque que vous savez cela nous évitera de long discours.
+:Chef 	Je peux vous prêter un bateau, mais il faudra me payer pour ça.
+:Ada	Vous payer ? Annoncez votre somme.
+:Chef 	Ha ha ha. Bien que des pièces d'or me serait utile, ce n'est pas ça que j'attends.
+:Ska	C'est quoi donc alors ?
+:Chef 	J'aimerais une Luxlithe en échange du bateau.
+
+[Surprise]
+
+:Ada	Aah...tout de même ce n'est pas rien.
+:Wol 	Puis-je vous demander pourquoi souhaitez-vous une Luxlithe ?
+:Chef 	La guerre risque d'être proche. Il faut donc nous préparer à tenir un siège.
+		Il faut des Luxlithes pour tenir. Former des chasseurs demande du temps, que nous
+		n'avons probablement pas.
+:Wol	Une guerre ? Mais contre qui ?
+:Chef 	Le royaume d'Arvis.
+:Ska	Mais le royaume d'Arvis n'est pas réputé pour être un royaume guerrier.
+:Chef 	C'est vrai, mais Arvis est maintenant sous la domination de Berik Ebra.
+:Ska	Berik Ebra ?
+:Chef 	Un royaume situé à l'Ouest d'Arvis. Il semblerait selon mes sources, Berik Ebra
+		utilise de nouvelles armes que nous ne possèdont pas dans cette contrée.
+:Ada	C'est pour ça que le Kelpie avait beaucoup de boulot.
+:Ska	Comment ça ?
+:Ada	Eh bien, puisque Charmes appartient à Kell et qu'une guerre va éclater, il
+		a demandé des efforts supplémentaires à Charmes.
+:Chef 	C'est exact.
+		Avez-vous choisi que ce vous voulez faire ?
+:Wol	Je pense que nous devons en discuter entre nous.
+:Chef 	Je n'attends pas de vous une réponse immédiate. Je vais vous laisser y réfléchir.
+		J'ai fait préparer un chambre pour vous.
+		Sur votre droite en sortant de la pièce.
+:Wol	Vous êtes bien aimable.
+:Chef 	Ce n'est souvent que nous avons des invités par ici.
+
+
 Scène 15
 --------
-	Le vol des Luxlithes
+	Le vol des Luxlithes.
+
+:Ska	Eh toi !
+:Wol	Qu'est-ce qu'il y a, Ska ?
+:Ska	On nous à volé les Luxlithes. 
+:Ada	Quoi !?
+:Ska	Suivons le voleur.
+
+[ Au croisement rencontre avec le Chef]
+
+:Chef 	Vous êtes debout ?
+:Ska	Un voleur s'est introduit dans le fort.
+		Il nous a dérobé nos Luxlithes.
+:Ada	Vous êtes aussi réveillés.
+:Chef 	Mes gardes m'ont donné l'alerte d'une intrusion.
+		Ce doit être votre voleur.
+:Wol	Par où s'est-il enfuis ?
+:Chef 	Je pense qu'il est travaille pour Arvis.
+:Wol	Et donc ?
+:Chef 	Il est sûrement parti en direction de l'Ouest, en direction de la montagne.
+		Rattrapez-le !
 
 Scène 16
 --------
-	Repère de brigands (encore :p)
+
+[ Espion regarde autour et entre dans la cabane ]
+
+:Ada	C'est moi ou il ressemble à Kelpie.
+:Wol 	J'ai aussi l'impression.
+:Ska	Fonçons le choper !
+
+[ À l'intérieur ]
+
+:Malleus	À voici des Luxlithes, parfait. Beau travail Kelpie.
+:Kelpie 	Ce n'était pas difficile. 
+			Tu avais raison, ils sont faciles à berner.
+:Malleus	Maintenant, nous allons pouvoir activer ce portail.
+:Ska	Un instant !
+:Malleus	Quoi !?
+:Kelpie 	Vous m'avez suivi, mais comment ?
+:Ada 	Le Chef de Kell savait où tu allais.
+:Malleus 	Ce n'est pas grave. Je vais pouvoir me vengé du phare.
+:Wol	Minute, c'est nous qui allons nous vengé !
+:Ada 	Rendez nous les Luxlithes et il ne vous arrivera rien
+:Kelpie 	Ne nous sous-estime pas !
+:Ska	Ç'est à nous de dire ça.
+
+[ Combat ]
+
+:Malleus	Vous êtes coriace, mais regardez ce que je vous ai préparé.
+:Kelpie		Euh...Malleus...
+:Malleus	Quoi Kelpie ! Je prépare quelque chose.
+:Kelpie 	Le portail...il semble s'être activé...
+:Malleus 	Comment !?
+:Ska	Le portail ?
+:Ada	Celui derrière vous ?
+:Wol	Ça ressemble plus à une décoration.
+:Malleus	Le combat a dû lui donner l'énergie suffisant pour s'activer.
+:Kelpie	Ça sent le roussi.
+
+[ Scène téléportation ]
 
 ++++++++++++++++++++++++++++++++
 	Arvis & Aarin & Berik Ebra				
@@ -613,6 +726,42 @@ Scène 16
 Scène 17
 --------
 	Arrivé dans le chateau d'Arvis, prison et explication
+
+:???	Le portail se met à réagir. Que se passe-t-il ?
+		Je n'ai pourtant encore rien fait.
+
+[ Scène arrivé téléportation ]
+
+:???	Des monstres ? Gardes !
+		Gardes !
+:???	Arretez ces trois personnages. Ils doivent venir de Kell.
+
+[ Scène prison ]
+
+:Ada 	Eh bien...je crois que l'on va pouvoir croupir ici pendant un petit moment.
+:Wol	Ne sois pas si défaitiste, ils ont bien une sorte de tribunal.
+		Ce sera l'occassion d'expliquer le quiprocco.
+:Ska	En tout cas, je suis fatigué.
+
+...Explosion
+
+:???	Mince, c'est une cellule à côté.
+:Ska	Bin, vous nous avez pas entendu ?
+:???	J'avais la tête ailleurs.
+:Ada	Moi ce qui me surprends c'est que vous avez fait explosé le mur !
+:???	Ce n'est rien ça. Grâce à mes explosifs je peux faire exploser beaucoup de choses.
+:Wol	Vos explosifs ? Vous êtes un scientifique ?
+:???	Oui, je me nomme Toeplitz.
+		Je travaillais pour Pyrrhos, mais j'ai été kidnappé et vendu à Berik Ebra.
+		Puis on m'a fait voyagé jusqu'ici à Arvis.
+:Wol	Nous sommes donc à Arvis. C'est bon à savoir.
+:Ska	Pourquoi les gens savants racontent-ils toujours leur vie ?
+:Ada	Pour se sentir intéressante, je suppose.
+:Toeplitz	Ou pour faire la caussette, vu que les chasseurs ne font que bourriner dans le tas.
+			Sans le savoir incommensurable de mon génie, Pyrrhos serait encore un petite cité.
+			Sûrement détruite par Berik Ebra.
+:Ska	Pourquoi vous nous racontez tout ça ?
+:Toeplitz	
 
 Scène 18
 --------
