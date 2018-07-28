@@ -541,7 +541,10 @@ Scène 12
 		Puis-je en connaître raison de votre souhait d'aller à Kell ?
 :Ska	Nous voulons retourner d'où l'on vient.
 :Ada	Nous venons de Balfort. Et il nous faudrait un bateau pour y retourner.
-:Prima	Je vois. Comment êtes vous arrivés à Charmes ? Vous entreprenez un voyage ?
+:Prima	Je vois. Kelpie vous a refusé le voyage.
+  		Comprenez que les monstres en mer sont plus nombreux qu'autrefois.
+		Nous ne prenons plus le risque de faire de long voyage.
+:Prima 	Comment êtes vous arrivés à Charmes ?
 :Ada	C'est assez compliqué et long.
 :Prima	Je vous écoute, nous avons notre temps.
 :Ada	Nous sommes des chasseurs de Luxlithes. Nous étions dans le phare au sud de Balfort.
@@ -560,7 +563,7 @@ Scène 12
 :Prima	C'est entendu. Vos intentions sont louables.
 		Voici un laisser-passer. Avec ceci vous pourrez pénétrer
 		dans la forêt pour aller en direction de Kell.
-:Ada	Merci.
+:Ada	Merci.	
 
 Scène 13
 --------
@@ -575,12 +578,12 @@ Scène 13
 :Ada	J'y pense. Vous vous souvenez, Malleus à parler du véritable pouvoir des Luxlithes.
 		À votre avis, qu'entendait-il par là ?
 :Ska	J'en ai aucune idée. 
-:Wol	Mise à part le pouvoir des Prima, celui de créer une zone de protection autour d'un village,
+:Wol	Mise à part le pouvoir des Primas, celui de créer une zone de protection autour d'un village,
 		je ne connais rien d'autre sur les Luxlithes.
 :Ada	Mmmh...
-:Ska	On demandera à Yaga. C'est un Prima, elle doit savoir plus de choses.
-:Ada	Tu as raison. Mais la Prima de Charmes semblait connaître Malleus.
-:Wol	Tout à fait, cela m'a surpris aussi. Qui est-il au juste.
+:Ska	On demandera à Yaga. C'est une Prima, elle doit savoir plus de choses.
+:Ada	Tu as raison. La Prima de Charmes semblait connaître Malleus.
+:Wol	Tout à fait, cela m'a surpris aussi. À quoi penses-tu, Ada ?
 :Ada	Il a réussi à invoquer un monstre. Y a-t-il un lien avec la Luxlithe ?
 :Wol	Tu penses que cela à un rapport ?
 :Ada	Eh bien, je n'ai jamais entendu parler d'être vivant capable d'invoquer des monstres.
@@ -590,8 +593,9 @@ Scène 13
 :Ska	Je suis de l'avis de Wol. Nous sommes bien capable de lancer de la magie.
 		Alors pourquoi pas créer des monstres.
 :Ada	Vous marquez un point.
-:Wol	Et si les Luxlithes confèrent de telles pouvoirs, je pense que beaucoup de personnes
-		seraient au courant. Et les Primas feraient autres choses que créer des zones de protection.
+:Wol	Et si les Luxlithes confèrent de tels pouvoirs, je pense que beaucoup de personnes
+		seraient au courant. Les Primas feraient autres choses que créer des zones de protection.
+		Et il n'y aura pas besoin de chasseurs.
 :Ada	C'est vrai, vu comme ça.
 :Ska	Bon, prenons la Luxlithe et repartons en direction de Kell.
 
@@ -617,42 +621,46 @@ Scène 14
 --------
 	Rencontre avec le chef de Kell
 
-:Chef 	Vous êtes les étrangers venus de Balfort.
+:Intendant 	Vous êtes les étrangers venus de Balfort.
 :Ska	Les nouvelles vont vite dans votre région.
-:Chef 	Sachez que Charmes est sous ma protection. J'ai ainsi vent de tout ce qui s'y passe.
+:Intendant 	Sachez que Charmes est sous ma protection. J'ai ainsi vent de tout ce qui s'y passe.
 :Wol	Puisque que vous savez cela nous évitera de long discours.
-:Chef 	Je peux vous prêter un bateau, mais il faudra me payer pour ça.
+:Intendant 	Je peux vous prêter un bateau, mais il faudra me payer pour ça.
 :Ada	Vous payer ? Annoncez votre somme.
-:Chef 	Ha ha ha. Bien que des pièces d'or me serait utile, ce n'est pas ça que j'attends.
+:Intendant 	Ha ha ha. Bien que des pièces d'or me serait utile, ce n'est pas ça que j'attends.
 :Ska	C'est quoi donc alors ?
-:Chef 	J'aimerais une Luxlithe en échange du bateau.
+:Intendant 	J'aimerais une Luxlithe en échange du bateau.
 
 [Surprise]
 
 :Ada	Aah...tout de même ce n'est pas rien.
-:Wol 	Puis-je vous demander pourquoi souhaitez-vous une Luxlithe ?
-:Chef 	La guerre risque d'être proche. Il faut donc nous préparer à tenir un siège.
+:Wol 	Pourquoi souhaitez-vous une Luxlithe ?
+:Intendant 	
+		La guerre risque d'être proche. Il faut donc nous préparer à tenir un siège.
 		Il faut des Luxlithes pour tenir. Former des chasseurs demande du temps, que nous
 		n'avons probablement pas.
+:Intendant En somme, les monstres deviennent étrangemment plus coriace.
+		Il faut des hommes expérimentés maintenant.
 :Wol	Une guerre ? Mais contre qui ?
-:Chef 	Le royaume d'Arvis.
+:Intendant 	Le royaume d'Arvis.
 :Ska	Mais le royaume d'Arvis n'est pas réputé pour être un royaume guerrier.
-:Chef 	C'est vrai, mais Arvis est maintenant sous la domination de Berik Ebra.
+:Intendant 	C'est vrai, mais Arvis est maintenant sous la joug de Berik Ebra.
 :Ska	Berik Ebra ?
-:Chef 	Un royaume situé à l'Ouest d'Arvis. Il semblerait selon mes sources, Berik Ebra
+:Intendant 	Un royaume situé à l'Ouest d'Arvis. Il semblerait, selon mes sources, que Berik Ebra
 		utilise de nouvelles armes que nous ne possèdont pas dans cette contrée.
-:Ada	C'est pour ça que le Kelpie avait beaucoup de boulot.
+:Ada	C'est pour ça que Kelpie avait beaucoup de boulot.
 :Ska	Comment ça ?
 :Ada	Eh bien, puisque Charmes appartient à Kell et qu'une guerre va éclater, il
 		a demandé des efforts supplémentaires à Charmes.
-:Chef 	C'est exact.
-		Avez-vous choisi que ce vous voulez faire ?
+:Intendant 	C'est exact.
+:Intendant	Avez-vous une Luxlithe sur vous, chasseurs ?
 :Wol	Je pense que nous devons en discuter entre nous.
-:Chef 	Je n'attends pas de vous une réponse immédiate. Je vais vous laisser y réfléchir.
+:Intendant 	Je n'attends pas de vous une réponse immédiate. 
+		Je vais vous laisser y réfléchir.
 		J'ai fait préparer un chambre pour vous.
-		Sur votre droite en sortant de la pièce.
 :Wol	Vous êtes bien aimable.
-:Chef 	Ce n'est souvent que nous avons des invités par ici.
+:Intendant 	Ce n'est souvent que nous avons des invités par ici.
+			Profiter pour faire un tour de Kell si ce n'est déjà fait.
 
 
 Scène 15
@@ -663,20 +671,20 @@ Scène 15
 :Wol	Qu'est-ce qu'il y a, Ska ?
 :Ska	On nous à volé les Luxlithes. 
 :Ada	Quoi !?
-:Ska	Suivons le voleur.
+:Ska	Suivons le !
 
 [ Au croisement rencontre avec le Chef]
 
-:Chef 	Vous êtes debout ?
-:Ska	Un voleur s'est introduit dans le fort.
-		Il nous a dérobé nos Luxlithes.
-:Ada	Vous êtes aussi réveillés.
-:Chef 	Mes gardes m'ont donné l'alerte d'une intrusion.
-		Ce doit être votre voleur.
+:Intendant 	Vous êtes debout ? 
+		Mes gardes ont donné l'alerte d'une intrusion.
+		Vous êtes après un voleur ?
+:Ska	Oui, il nous a dérobé nos Luxlithes.
+:Ada	Vous aussi ?
+:Intendant 	Le voleur m'a également pris des biens.
 :Wol	Par où s'est-il enfuis ?
-:Chef 	Je pense qu'il est travaille pour Arvis.
+:Intendant 	Je pense qu'il est travaille pour Arvis.
 :Wol	Et donc ?
-:Chef 	Il est sûrement parti en direction de l'Ouest, en direction de la montagne.
+:Intendant 	Il est sûrement parti en direction de l'Ouest, en direction de la montagne.
 		Rattrapez-le !
 
 Scène 16

@@ -32,7 +32,7 @@ Science des Luxlithes
 1063	- Estimation de la quantité restantes de Luxlithes : 25% de la masse totale (Viktor)
 1065	- Estimation refutée, limitation : aucune connaissance depuis quand on utilise les luxlithes. (Druh)
 1066	-
-	Une énergie associé à chaque particules de Lucy : Energie de Lucy (Toeplitz).
+	Une énergie associé à chaque particules de Lucy : Energie de Lucy (Toeplitz & ).
 	Non absorption des particules par les organismes mais interaction via l'énergie de Lucy. (Toeplitz)
 	Champ de Lucy non nul en tout point. Énergie non nulle globalement. (Toeplitz)
 	Accumulation de l'énergie de Lucy au sein d'un organisme. (Toeplitz)
