@@ -672,11 +672,7 @@ Scène 15
 :Ska	On nous à volé les Luxlithes. 
 :Ada	Quoi !?
 :Ska	Suivons le !
-
-[ Au croisement rencontre avec le Chef]
-
-:Intendant 	Vous êtes debout ? 
-		Mes gardes ont donné l'alerte d'une intrusion.
+:Intendant 	Mes gardes ont donné l'alerte d'une intrusion !
 		Vous êtes après un voleur ?
 :Ska	Oui, il nous a dérobé nos Luxlithes.
 :Ada	Vous aussi ?
@@ -705,25 +701,43 @@ Scène 16
 :Ska	Un instant !
 :Malleus	Quoi !?
 :Kelpie 	Vous m'avez suivi, mais comment ?
-:Ada 	Le Chef de Kell savait où tu allais.
-:Malleus 	Ce n'est pas grave. Je vais pouvoir me vengé du phare.
-:Wol	Minute, c'est nous qui allons nous vengé !
-:Ada 	Rendez nous les Luxlithes et il ne vous arrivera rien
-:Kelpie 	Ne nous sous-estime pas !
-:Ska	Ç'est à nous de dire ça.
+:Ada 	L'intendant de Kell savait où tu allais.
+:Ska	Et ce n'est pas une petite montagne qui va nous arrêter.
+:Malleus	Grr...
+:Wol	Vous travaillez pour le royaume d'Arvis ?
+:Kelpie 	Ce ne sont pas vos oignons.
+:Malleus 	Nous ne travaillons pas tout à fait pour Arvis.
+:Kelpie 	Eh ! Malleus ne le dit rien !
+:Malleus	Ne t'inquiètes pas.
+:Ada	Et pourquoi avez-vous besoin de nos Luxlithes ?
+:Kelpie 	Ça ne vous regarde pas.
+:Malleus	Vous allez pouvoir être temoin de leur utilité et du portail.
+:Kelpie		Eh ! Malleus arrête de leur dévoiler tout.
+:Malleus 	Ne t'inquiètes pas.
+:Wol	Vous n'en ferez rien. Nous allons récupérer nos Lulxithes.
+:Ska 	Et vous mettre la raclée par le même occassion.
+:Kelpie 	Ha ha ha ! Je connais votre niveau.
+			Nous allons vous battre facilement.
+:Ada	Ah bon ?
+:Kelpie 	Tu veux tester ?
+:Ska 	Allez viens !
+:Malleus	Tant miexu, c'est l'occassion de me venger du phare.
+:Wol	Minute, c'est nous qui allons nous venger !
 
 [ Combat ]
 
 :Malleus	Vous êtes coriace, mais regardez ce que je vous ai préparé.
 :Kelpie		Euh...Malleus...
-:Malleus	Quoi Kelpie ! Je prépare quelque chose.
+:Malleus	Quoi Kelpie ! Tu vois bien que je prépare quelque chose.
 :Kelpie 	Le portail...il semble s'être activé...
 :Malleus 	Comment !?
-:Ska	Le portail ?
-:Ada	Celui derrière vous ?
-:Wol	Ça ressemble plus à une décoration.
-:Malleus	Le combat a dû lui donner l'énergie suffisant pour s'activer.
-:Kelpie	Ça sent le roussi.
+:Ska	Le portail ? Il brille !
+:Wol	C'était ça le portail !? Je pensais que c'était un tapis.
+:Malleus	Mince, le combat a dû lui donner l'énergie suffisante pour s'activer.
+:Kelpie	Que faisons-nous ?
+:Malleus	Il est trop tard !
+:Ada	Quoi !?
+:Wol 	Que se passe-t-il ?
 
 [ Scène téléportation ]
 
@@ -734,9 +748,11 @@ Scène 16
 Scène 17
 --------
 	Arrivé dans le chateau d'Arvis, prison et explication
-
+:???	Regardons de plus prêt ce portail.
+		Il m'a l'air ancien.
 :???	Le portail se met à réagir. Que se passe-t-il ?
-		Je n'ai pourtant encore rien fait.
+		Je n'ai pourtant encore rien touché, rien activé
+		rien fait.
 
 [ Scène arrivé téléportation ]
 
@@ -748,44 +764,265 @@ Scène 17
 
 :Ada 	Eh bien...je crois que l'on va pouvoir croupir ici pendant un petit moment.
 :Wol	Ne sois pas si défaitiste, ils ont bien une sorte de tribunal.
+		Ou quelque chose dans le genre, nan ?
 		Ce sera l'occassion d'expliquer le quiprocco.
+:Ada	Mmh...j'espère que tu as raison.
 :Ska	En tout cas, je suis fatigué.
+		Je vais profiter pour faire un petit somme.
+:Wol	Ska, toujours les pieds sur terre...
+:Ada	Tu veux dire inconscient.
+:Wol	C'est peut-être lui qui a raison.
+		Nous ne pouvons rien faire, alors autant se reposer.
+		Nous avons vécu pas mal d'aventures depuis le phare.
 
 ...Explosion
 
 :???	Mince, c'est une cellule à côté.
-:Ska	Bin, vous nous avez pas entendu ?
+:Ska	Quoi !? Qu'est !?
+:Wol	Évidemment que c'est une autre cellule.
+		Nous nous avez pas entendu parler ?
+		Il fallait faire exploser la grille et non le mur.
 :???	J'avais la tête ailleurs.
-:Ada	Moi ce qui me surprends c'est que vous avez fait explosé le mur !
-:???	Ce n'est rien ça. Grâce à mes explosifs je peux faire exploser beaucoup de choses.
-:Wol	Vos explosifs ? Vous êtes un scientifique ?
-:???	Oui, je me nomme Toeplitz.
-		Je travaillais pour Pyrrhos, mais j'ai été kidnappé et vendu à Berik Ebra.
+:Ada	Moi ce qui me surprends, c'est que vous avez fait explosé le mur !
+:???	Ça, ce n'est rien. Ils le répareront.
+:Ada	Oui, mais comment avez-vous fait ?
+:???	Grâce à mes explosifs je peux faire exploser beaucoup de choses.
+:Wol	Vos explosifs ?
+:???	Laissez-moi me présenter.
+:Ada	Je vous prie, faîtes donc.
+:???	Avant toutes choses, je me nomme Toeplitz.
+:Toeplitz	Je travaillais pour Pyrrhos. 
+		J'ai été kidnappé et vendu à Berik Ebra.
 		Puis on m'a fait voyagé jusqu'ici à Arvis.
-:Wol	Nous sommes donc à Arvis. C'est bon à savoir.
-:Ska	Pourquoi les gens savants racontent-ils toujours leur vie ?
-:Ada	Pour se sentir intéressante, je suppose.
-:Toeplitz	Ou pour faire la caussette, vu que les chasseurs ne font que bourriner dans le tas.
-			Sans le savoir incommensurable de mon génie, Pyrrhos serait encore un petite cité.
-			Sûrement détruite par Berik Ebra.
-:Ska	Pourquoi vous nous racontez tout ça ?
-:Toeplitz	
+:Wol	Nous sommes à Arvis. C'est bon à savoir.
+:Ska	Pyrrhos, c'est pas la ville où les bateaux allait à l'époque de l'explotation de Griffeciel ?
+:Ada	Si, c'est ça Ska. Tu as bien mémorisé. La ville est au nord du fleuve de Boissec.
+:Toeplitz	Si je vous dérange, dit-le. Ça ira plus vite.
+:Wol	Excusez-nous.
+:Toeplitz 	À Pyrrhos, j'ai fait mes études. 
+		Des études de sciences évidemment. C'est là que j'ai rencontré une femme.
+		Elle se nomme Noetheria. Une vraie génie elle aussi.
+		Sûrement la raison que l'on s'entend si bien.
+		Nous sommes devenus deux grands scientifiques de Pyrrhos !
+:Ska	Pourquoi les savants racontent-ils toujours leur vie ?
+:Wol	Pour se sentir intéressante, je suppose.
+:Toeplitz	Ou pour faire la caussette, vu que les chasseurs ne font que bourriner dans le tas !
+			Sans le savoir incommensurable de mon génie, Pyrrhos serait un tas de ruines.
+			Avec Noetheria nous travaillons sur les Luxlithes, mais Viktor nous a vendu.
+			Ça ne peut être que lui.
+			Il est jaloux de mon génie ainsi que celui de Notheria.
+			Il ne l'a jamais accepté.
+:Ska	Pourquoi vous nous racontez tout ça ? Nous ne nous connaissons même pas.
+:Wol	Faut le comprendre, le pauvre. Ça doit faire des jours qu'il est seul dans sa cellule.
+		Et cette Noetheria semble lui manquer.
+:Ada	Enfin ce n'est pas une raison pour le vieux de nous prendre pour son chat.
+		Nous ne sommes pas la pour écouter ses malheurs. 
+		Nous avons déjà beaucoup de notre côté.
+:Toeplitz	Viktor a de la chance, je ne suis pas rancunier.
+:Ada	Et c'est reparti.
+:Toeplitz	Pour le moment il s'agit de retrouver Notheria.
+			Et vous ? Comment êtes-vous arrivés ici ?
+:Ada	!?
+:Wol	Notre histoire est assez longue.
+:Ska	Pour faire simple, nous chassions des Luxlithes.
+		Nous avons fait un mauvaise rencontre.
+		Et nous cherchons à moyen de revenir dans notre village.
+:Toeplitz	Et d'où venez vous ?
+:Wol	De Balfort.
+:Toeplitz	Balfort !? Mais c'est à l'autre bout du monde.
+			Vous en avez fait du chemin.
+			Mais comment se fait-il que vous soyez en prison ?
+:Wol 	Nous sommes arrivés à Arvis par un portail.
+:Toeplitz	Un portail de téléportation ?!
+			Cela existe vraiment, ce n'était pas une rumeur !
+			Quand Noetheria le saura, elle sautera de joie.
+			Mais cela n'explique votre présence ici.
+:Wol	Deux personnages nous ont dérobé nos luxlithes lorsque nous étions à Kell.
+		Nous les avons suivis et après un échange plutôt agité...
+:Toeplitz	Encore de la violence j'imagine...
+:Wol	Donc après le portail s'est activé. À notre arrivé à Arvis, on nous a pris
+		pour des monstres venant de Kell.
+:Toeplitz 	Quoi !!!
+:Ada	Qu'y a-t-il ?
+:Toeplitz	Cela veut dire que Dogan pense qu'il s'agit d'une déclaration de guerre de la part de Kell.
+			Ce n'est pas bon du tout.
+:Ska 	Dogan ?
+:Toeplitz	C'est le roi d'Arvis.
+:Ada	Je me permet d'ajouter que selon l'intendant de Kell, c'est Arvis qui avais l'intention d'envahir Kell.
+:Toeplitz	Arvis avait l'intention d'envahir Kell !?
+:Wol	Arvis est tombé sous le joug de Berik Ebra.
+:Toeplitz	Attendez !
+:Ska 	Quoi ?
+:Toeplitz	Je pense savoir ce qu'il se trame.
+:Wol	Nous sommes tout ouïs.
+:Ada	En même temps, nous avons guère le choix.
+:Toeplitz	Depuis quelques temps Dogan agit bizarrement.
+			La domination par Berik Ebra doit en être la raison.
+			D'un autre côté, Gerik aussi agit étrangement.
+:Ska 	Gerik ?
+:Toeplitz 	Le roi de Berik Ebra, plutôt le Commander comme il aime se fait appeler.
+			Gerik n'a jamais déclaré beaucoup aimer les guerres.
+			Alors déclarer une guerre à Kell, si loin de Berik Ebra, cela est invraisemblable.
+			D'autant que la cité de Pyrrhos doit être au courant de ses agissements.
+			Mais elle n'est pas encore intervenu...étrange.
+:Ada	Et pourtant, tout ceci est vrai.
+:Toeplitz	Il y a quelque chose qui m'échappe.
+:Ska	Pas qu'à vous.
+:Toeplitz	Bon, il nous manque des informations.
+			La première étape est de découvrir les raisons du comportement de Dogan.
+			Puis de savoir ce qu'il se passe à Berik Ebra. Enfin il nous faut connaître 
+			la raison de non intervention de Pyrrhos dans cette histoire.
+:Ada 	Voilà, il perd la raison le vieux.
+:Wol	Ada, un peu de respect. Ça ne te ressemble pas.
+:Ska	Moi, je me demande comment faire toutes ces choses, alors que nous sommes enfermés.
+:Toeplitz	Ha ha ha ! J'ai encore des explosifs. 
+			Poussez-vous !
+
+[Explosion]
+
+:Ada	C'est moi où il vient de faire exploser le sol et non la grille de la prison ?
+:Toeplitz	Les prisons sont souvent dans les bassements des forts.
+:Ska	Et alors ?
+:Toeplitz	Les égouts sont également situés sous les forts.
+:Ska	Et alors ?
+:Wol 	Nous allons ainsi fuir par les égouts.
+:Ada	Sérieusement...il n'y avait pas plus simple ?
+:Toeplitz	Suivez-moi !
 
 Scène 18
 --------
 	Le médecin d'Arvis tente un remède sur la fille du roi. Héros bannis d'Arvis
 
+:Savant Le portail va être bientôt prêt.
+		Ces étrangers ont accélerer sont ouverture.
+		C'est parfait.
+:Savant C'est Gerik qui va être content. L'accès à Kell va renforcer sa domnination.
+		Et par conséquent, je pourrais monter en grade.
+		Ha ha ha !
+		Mais faut d'abord que j'active ce fichu portail.
+:Toeplitz	Halte là !
+:Savant 	Mais...vous étiez en prison ! Comment êtes-vous sortis ?
+:Toeplitz 	Cela ne te regarde pas. Pourquoi Gerik que envahir Kell.
+:Savant 	Ça je n'en sais rien. Je ne fais que suivre les ordres.
+:Ska	Bon, on le tue ?
+:Wol	Attends. On ne tue les gens comme ça.
+:Ska	Ben c'est un ennemi non ?
+:Ada 	Pour une fois que Ska a raison.
+:Wol	Tu t'y mets aussi, Ada. C'est l'air marin qui te rend comme ça ?
+:Ada 	Peut-être.
+:Ska 	À mort !
+:Savant 	Mais...Mais...que faîtes-vous ?
+
+...
+
+:Savant 	Argh...je me meurs.
+:Ska	Meurs donc en silence.
+:Savant J'aurais dû prendre la tête d'Arvis une fois le portail restauré.
+		Gerik aurait reconnu mes compétences.
+:Toeplitz 	Vos compétences ? Je m'interroge.
+:Savant 	Vous ne comprenez pas. J'ai souffert toute ma vie.
+			Je n'ai jamais été reconnu.
+			La reconnaissance de Gerik et le royaume d'Arvis été un objectif.
+:Ska	En voilà, encore un savant qui parle...
+:???	J'ai tout entendu. Tu étais un traître, voilà tout.
+:Savant 	Tant pis...je suis mort...
+:???	Merci de m'avoir éliminé ce vil félon.
+:Ada	Qui êtes-vous ?
+:Dogan	Je suis Dogan, roi d'Arvis.
+:Wol 	Nous avons à nous expliquer.
+:Dogan 	Rien du tout. Vous venez de Kell pour m'assassiner.
+:Ada	C'est absolument faux.
+		Nous aimerions juste retourner à Balfort.
+		Nous venons de là-bas.
+:Toeplitz	Elle dit vrai.
+:Dogan	Mmh...c'est vraisemblable.
+		Quoi qu'il en soit, vous avez tué un homme.
+		Les lois d'Arvis sont formels. Quiconque tue un homme doit être tué.
+:Wol	Quoi !?
+:Ada	Mais...nous voulons simplement rentrer.
+:Dogan	J'entends bien. Mais les lois sont les lois.
+		Je passerais pour qui si je n'applique les lois ?
+:Ska	...
+:Toeplitz	Ils ont tué un traître.
+:Dogan	Mmh...dans ce cas, nous êtes bannis d'Arvis.
+:Ada	...
+:Wol	Ouf...je préfère ça.
+:Dogan 	Quittez immédiatement Arvis. Que l'on ne revois plus dans la cité.
+:Wol	Bien, je crois que nous n'avons guère le choix.
+
+[Ska, Ada Wol, Toeplitz sortent].
+
+:Dogan	Pas vous, sieur Toeplitz.
+:Toeplitz	Comment ?!
+:Dogan	Vous étiez déjà mon prisonnier. Votre cas est différent.
+:Toeplitz	Mais...c'est une méprise !
+:Dogan 	Gardes ! Emparez-vous de lui et jetez-le aux oubliettes !
+		J'entendrais ses revendications plus tard.
+:Dogan	Quant à vous, partez maintenant.
+:Toeplitz	Dirigez-vous vers Berik Ebra, au nord d'ici.
+			N'oubliez pas ce que je vous ai dit.
+
+
 Scène 19
 --------
-	Sur le chemin d'Aarin, apprends la fete à Aarin.
+	À Aarin, Ska récupère une luxlithe. Ska devient hériter d'Aarin. Ada et Wol sont seuls. Nuit à l'auberge.
+
+:Ada 	Sommes-nous arrivés ?
+:Wol	Il n'y a personne. Très étrange. Je ne pense que nous soyons à Berik Ebra.
+:Ska	Regardez ! Une Luxlithe. 
+:Ada	Encore ! Toujours en plein milieu de notre route.
+:Ska	On fait comme toujours, on la prend. On tue le monstre qui va débarquer.
+		Et on conitnue d'avancer.
+:Wol	Enfin, on est dans un village. Donc il n'y aurait pas de mosntre.
+		C'est très étrange. Fais attention à toi, Ska.
+:Ada	Il n''écoute plus.
+
+[Ska récupère la Luxlithe]
+
+C'est l'élu ! C'est l'élu.
+
+:Wol	Euh...c'est moi ou les habitants viennent de sortir de nul part.
+:Ada	C'est pas très rassurant.
+:Wol	Ska !
+
+C'est l'élu ! C'est l'élu.
+Ska avance seul en direction du sud.
+
+:Bienveillant	Salut à toi, élu ! Tu as été choisi par la prophétie.
+				Suis-nous. Nous allons dans la forteresse.
+:Wol	Attendez ! Qui êtes-vous ?
+:Ada	Ska, que fais-tu ?
+:Bienveillant 	Seul les plus vaillants peuvent nous suivre !
+				Vous n'êtes pas vaillant.
+:Wol	Comment !?
+:Ada	Ska semble hypnotisé.
+:Wol	Qui sont ces trois huluberlus.
+:Ada	Que faisons-nous ?
+:Wol	On part récupérer Ska.
+:Ada 	Comment atteindre la forteresse. Elle est au beau mileu du lac.
+:Wol	Nous irons dans la forteresse à la nuit tombé.
+		Il y aura moins de gardes.
+		Nous passerons inaperçu avec l'obscurité.
+:Ada	Attendons à l'auberge.
 
 Scène 20
 --------
-	À Aarin, Ska récupère une luxlithe. Ska devient hériter d'Aarin. Ada et Wol sont seuls. Nuit à l'auberge
+	La nuit tombée.
+
+:Ada	La nuit est bien tombée. Nous partons ?
+:Wol	Tu es prête ?
+:Ada	Bien sûr. Une barque nous attends à l'exterieur.
+:Wol 	Allons-y.
+	
+[ Navigue ]
+
+:Ada	Où peux bien être Ska ?
+:Wol	Là haut ! Dans la tour, il y a de la lumière.
+		Allons voir.
 
 Scène 21
 --------
-	
+	Chambre des Bienveillants.
 
 
 
