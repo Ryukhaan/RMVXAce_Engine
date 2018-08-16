@@ -768,7 +768,7 @@ Scène 17
 		Ce sera l'occassion d'expliquer le quiprocco.
 :Ada	Mmh...j'espère que tu as raison.
 :Ska	En tout cas, je suis fatigué.
-		Je vais profiter pour faire un petit somme.
+		Je vais en profiter pour faire un petit somme.
 :Wol	Ska, toujours les pieds sur terre...
 :Ada	Tu veux dire inconscient.
 :Wol	C'est peut-être lui qui a raison.
@@ -779,21 +779,21 @@ Scène 17
 
 :???	Mince, c'est une cellule à côté.
 :Ska	Quoi !? Qu'est !?
-:Wol	Évidemment que c'est une autre cellule.
+:Ada	Évidemment que c'est une autre cellule.
 		Nous nous avez pas entendu parler ?
 		Il fallait faire exploser la grille et non le mur.
 :???	J'avais la tête ailleurs.
-:Ada	Moi ce qui me surprends, c'est que vous avez fait explosé le mur !
+:Wol	Moi ce qui me surprends, c'est que vous avez fait explosé le mur !
 :???	Ça, ce n'est rien. Ils le répareront.
-:Ada	Oui, mais comment avez-vous fait ?
+:Wol	Oui, mais comment avez-vous fait ?
 :???	Grâce à mes explosifs je peux faire exploser beaucoup de choses.
-:Wol	Vos explosifs ?
+:Ska	Vos explosifs ?
 :???	Laissez-moi me présenter.
-:Ada	Je vous prie, faîtes donc.
+:Wol	Je vous prie, faîtes donc.
 :???	Avant toutes choses, je me nomme Toeplitz.
 :Toeplitz	Je travaillais pour Pyrrhos. 
-		J'ai été kidnappé et vendu à Berik Ebra.
-		Puis on m'a fait voyagé jusqu'ici à Arvis.
+		J'ai été kidnappé et vendu à des esclavagistes.
+		Puis on m'a fait voyagé jusqu'ici, dans cette prison à Arvis.
 :Wol	Nous sommes à Arvis. C'est bon à savoir.
 :Ska	Pyrrhos, c'est pas la ville où les bateaux allait à l'époque de l'explotation de Griffeciel ?
 :Ada	Si, c'est ça Ska. Tu as bien mémorisé. La ville est au nord du fleuve de Boissec.
@@ -801,25 +801,25 @@ Scène 17
 :Wol	Excusez-nous.
 :Toeplitz 	À Pyrrhos, j'ai fait mes études. 
 		Des études de sciences évidemment. C'est là que j'ai rencontré une femme.
-		Elle se nomme Noetheria. Une vraie génie elle aussi.
-		Sûrement la raison que l'on s'entend si bien.
+		Elle se nomme Noetheria. Une vraie génie, elle aussi.
+		Sûrement la raison pour laquelle on s'entend si bien.
 		Nous sommes devenus deux grands scientifiques de Pyrrhos !
 :Ska	Pourquoi les savants racontent-ils toujours leur vie ?
-:Wol	Pour se sentir intéressante, je suppose.
+:Wol	Pour se sentir intéressant, je suppose.
 :Toeplitz	Ou pour faire la caussette, vu que les chasseurs ne font que bourriner dans le tas !
 			Sans le savoir incommensurable de mon génie, Pyrrhos serait un tas de ruines.
 			Avec Noetheria nous travaillons sur les Luxlithes, mais Viktor nous a vendu.
 			Ça ne peut être que lui.
-			Il est jaloux de mon génie ainsi que celui de Notheria.
+			Il est jaloux de mon génie et celui de Notheria.
 			Il ne l'a jamais accepté.
 :Ska	Pourquoi vous nous racontez tout ça ? Nous ne nous connaissons même pas.
 :Wol	Faut le comprendre, le pauvre. Ça doit faire des jours qu'il est seul dans sa cellule.
 		Et cette Noetheria semble lui manquer.
 :Ada	Enfin ce n'est pas une raison pour le vieux de nous prendre pour son chat.
 		Nous ne sommes pas la pour écouter ses malheurs. 
-		Nous avons déjà beaucoup de notre côté.
+		Nous en avons déjà beaucoup de notre côté.
 :Toeplitz	Viktor a de la chance, je ne suis pas rancunier.
-:Ada	Et c'est reparti.
+:Ada	Et c'est reparti...
 :Toeplitz	Pour le moment il s'agit de retrouver Notheria.
 			Et vous ? Comment êtes-vous arrivés ici ?
 :Ada	!?
@@ -834,21 +834,21 @@ Scène 17
 			Mais comment se fait-il que vous soyez en prison ?
 :Wol 	Nous sommes arrivés à Arvis par un portail.
 :Toeplitz	Un portail de téléportation ?!
-			Cela existe vraiment, ce n'était pas une rumeur !
+			Cela fonctionne vraiment, ce n'était pas une rumeur !
 			Quand Noetheria le saura, elle sautera de joie.
 			Mais cela n'explique votre présence ici.
-:Wol	Deux personnages nous ont dérobé nos luxlithes lorsque nous étions à Kell.
+:Wol	Deux personnages nous ont dérobé nos Luxlithes lorsque nous étions à Kell.
 		Nous les avons suivis et après un échange plutôt agité...
 :Toeplitz	Encore de la violence j'imagine...
-:Wol	Donc après le portail s'est activé. À notre arrivé à Arvis, on nous a pris
-		pour des monstres venant de Kell.
+:Wol	Après l'échange, un portail s'est activé. À notre arrivé à Arvis, on nous a pris
+		pour des espions venant de Kell.
 :Toeplitz 	Quoi !!!
 :Ada	Qu'y a-t-il ?
 :Toeplitz	Cela veut dire que Dogan pense qu'il s'agit d'une déclaration de guerre de la part de Kell.
 			Ce n'est pas bon du tout.
 :Ska 	Dogan ?
 :Toeplitz	C'est le roi d'Arvis.
-:Ada	Je me permet d'ajouter que selon l'intendant de Kell, c'est Arvis qui avais l'intention d'envahir Kell.
+:Ada	Je me permet de dire que selon l'intendant de Kell, c'est Arvis qui avais l'intention d'envahir Kell.
 :Toeplitz	Arvis avait l'intention d'envahir Kell !?
 :Wol	Arvis est tombé sous le joug de Berik Ebra.
 :Toeplitz	Attendez !
@@ -860,18 +860,19 @@ Scène 17
 			La domination par Berik Ebra doit en être la raison.
 			D'un autre côté, Gerik aussi agit étrangement.
 :Ska 	Gerik ?
-:Toeplitz 	Le roi de Berik Ebra, plutôt le Commander comme il aime se fait appeler.
-			Gerik n'a jamais déclaré beaucoup aimer les guerres.
+:Toeplitz 	Le roi de Berik Ebra, ou plutôt le Commander comme il aime se faire appeler.
+			Gerik n'a jamais déclaré beaucoup de guerres.
 			Alors déclarer une guerre à Kell, si loin de Berik Ebra, cela est invraisemblable.
 			D'autant que la cité de Pyrrhos doit être au courant de ses agissements.
 			Mais elle n'est pas encore intervenu...étrange.
 :Ada	Et pourtant, tout ceci est vrai.
 :Toeplitz	Il y a quelque chose qui m'échappe.
 :Ska	Pas qu'à vous.
+:Ada	Vous disiez que vous saviez ce qu'il se passait. Avouez que vous ne le savez pas !
 :Toeplitz	Bon, il nous manque des informations.
 			La première étape est de découvrir les raisons du comportement de Dogan.
-			Puis de savoir ce qu'il se passe à Berik Ebra. Enfin il nous faut connaître 
-			la raison de non intervention de Pyrrhos dans cette histoire.
+			Puis de savoir ce qu'il se passe à Berik Ebra. Enfin, il nous faut connaître 
+			la raison de la non intervention de Pyrrhos dans cette histoire.
 :Ada 	Voilà, il perd la raison le vieux.
 :Wol	Ada, un peu de respect. Ça ne te ressemble pas.
 :Ska	Moi, je me demande comment faire toutes ces choses, alors que nous sommes enfermés.
@@ -894,7 +895,7 @@ Scène 18
 	Le médecin d'Arvis tente un remède sur la fille du roi. Héros bannis d'Arvis
 
 :Savant Le portail va être bientôt prêt.
-		Ces étrangers ont accélerer sont ouverture.
+		Ces étrangers ont accéleré son ouverture.
 		C'est parfait.
 :Savant C'est Gerik qui va être content. L'accès à Kell va renforcer sa domnination.
 		Et par conséquent, je pourrais monter en grade.
@@ -902,30 +903,30 @@ Scène 18
 		Mais faut d'abord que j'active ce fichu portail.
 :Toeplitz	Halte là !
 :Savant 	Mais...vous étiez en prison ! Comment êtes-vous sortis ?
-:Toeplitz 	Cela ne te regarde pas. Pourquoi Gerik que envahir Kell.
+:Toeplitz 	Cela ne te regarde pas. Pourquoi Gerik veut envahir Kell ?
 :Savant 	Ça je n'en sais rien. Je ne fais que suivre les ordres.
 :Ska	Bon, on le tue ?
 :Wol	Attends. On ne tue les gens comme ça.
-:Ska	Ben c'est un ennemi non ?
+:Ska	C'est un ennemi, non ?
 :Ada 	Pour une fois que Ska a raison.
 :Wol	Tu t'y mets aussi, Ada. C'est l'air marin qui te rend comme ça ?
-:Ada 	Peut-être.
+:Ada 	Peut-être ou l'air de la prison.
 :Ska 	À mort !
 :Savant 	Mais...Mais...que faîtes-vous ?
 
 ...
 
 :Savant 	Argh...je me meurs.
-:Ska	Meurs donc en silence.
-:Savant J'aurais dû prendre la tête d'Arvis une fois le portail restauré.
-		Gerik aurait reconnu mes compétences.
+:Ska	Meurs en silence, vil personnage !
+:Savant Gerik aurait reconnu mes compétences une fois le portail restauré.
+		J'aurais dû alors prendre la tête d'Arvis.
 :Toeplitz 	Vos compétences ? Je m'interroge.
 :Savant 	Vous ne comprenez pas. J'ai souffert toute ma vie.
 			Je n'ai jamais été reconnu.
-			La reconnaissance de Gerik et le royaume d'Arvis été un objectif.
+			La reconnaissance de Gerik et le royaume d'Arvis était un objectif.
 :Ska	En voilà, encore un savant qui parle...
 :???	J'ai tout entendu. Tu étais un traître, voilà tout.
-:Savant 	Tant pis...je suis mort...
+:Savant 	Tant pis...je suis mort...maintenant...
 :???	Merci de m'avoir éliminé ce vil félon.
 :Ada	Qui êtes-vous ?
 :Dogan	Je suis Dogan, roi d'Arvis.
@@ -941,10 +942,12 @@ Scène 18
 :Wol	Quoi !?
 :Ada	Mais...nous voulons simplement rentrer.
 :Dogan	J'entends bien. Mais les lois sont les lois.
-		Je passerais pour qui si je n'applique les lois ?
+		Je passerais pour qui, si je n'applique les lois ?
 :Ska	...
 :Toeplitz	Ils ont tué un traître.
-:Dogan	Mmh...dans ce cas, nous êtes bannis d'Arvis.
+:Dogan	Mmh...dans ce cas, je sais me montrer clément.
+:Ada	Aah, quand même.
+:Dogan	Vous êtes bannis d'Arvis !
 :Ada	...
 :Wol	Ouf...je préfère ça.
 :Dogan 	Quittez immédiatement Arvis. Que l'on ne revois plus dans la cité.
@@ -965,7 +968,7 @@ Scène 18
 
 Scène 19
 --------
-	À Aarin, Ska récupère une luxlithe. Ska devient hériter d'Aarin. Ada et Wol sont seuls. Nuit à l'auberge.
+	À Aarin, Ska récupère une luxlithe. Ska devient héritier d'Iris. Ada et Wol sont seuls. Nuit à l'auberge.
 
 :Ada 	Sommes-nous arrivés ?
 :Wol	Il n'y a personne. Très étrange. Je ne pense que nous soyons à Berik Ebra.
@@ -975,7 +978,7 @@ Scène 19
 		Et on conitnue d'avancer.
 :Wol	Enfin, on est dans un village. Donc il n'y aurait pas de mosntre.
 		C'est très étrange. Fais attention à toi, Ska.
-:Ada	Il n''écoute plus.
+:Ada	Trop tard ! Il nécoute plus.
 
 [Ska récupère la Luxlithe]
 
@@ -987,6 +990,7 @@ C'est l'élu ! C'est l'élu.
 
 C'est l'élu ! C'est l'élu.
 Ska avance seul en direction du sud.
+Gloire aux bienveillants
 
 :Bienveillant	Salut à toi, élu ! Tu as été choisi par la prophétie.
 				Suis-nous. Nous allons dans la forteresse.
@@ -1022,7 +1026,260 @@ Scène 20
 
 Scène 21
 --------
-	Chambre des Bienveillants.
+	Premier Bienveillant
+
+:Ada	Aucun garde. Très étrange cette forteresse.
+:Wol	Voilà quelqu'un !
+:Wol	Qui es-tu ?
+:Bienveillant 	Je suis l'un des trois Bienveillants de la cité d'Iris.
+				Que faîtes-vous dans notre demeure ?
+:Ada	Nous venons récupérer notre ami, Ska, qui a été enlevé.
+:Bienveillant 	Votre ami ? Il n'y a que nous et l'héritier ici.
+				Si vous voulez l'héritier, alors montrer votre bravoure !
+:Wol	Moi, j'y compte bien. Vous allez la sentir notre bravoure !
+:Bienveillant 	C'est un défi ? Alors en garde !
+
+[Combat]
+
+:Wol	Il s'est transformé en monstre !
+:Ada	Je n'ai jamais vu ça...
+:Wol 	C'est dégoûtant, ignoble, immonde !
+:Ada 	Je me demande comment il s'y est pris.
+:Wol	Mmh...Ne serait-ce pas le même genre de magie que celle de Malleus ?
+:Ada	Ça y ressemble...mais là c'était lui le monstre.
+:Wol	Comme quoi on a pas encore tout vu dans le monde.
+:Ada	Oui. Continuons à chercher Ska.
+
+	Deuxième Bienveillant
+
+:Ada	Tu es le deuxième Bienveillant ?
+:Bienveillant 	Oui. Et vous, qui êtes-vous ?
+:Wol	Nous sommes les vaillants guerriers venus récupérer votre héritier !
+:Bienveillant 	Seuls les plus honorables peuvent revendiquer l'héritier !
+:Ada	T'inquiètes misérable, je vais te montrer mon sens de l'honneur.
+:Wol	Viens, immonde créature.
+
+[Combat]
+
+:Ada	C'est moi ou ils sont complètement fou ces bienveillants ?
+:Wol	Oui. Je ne comprends pas très bien ce qu'il se passe ici.
+:Ska	Ça ne fait rien, continuons de chercher Ska.
+
+	Troisième Bienveillant
+
+:Bienveillant 	Je vous attendez vaillants combattants.
+:Wol	Tu nous attendais ?
+:Bienveillant 	Oui. Vous êtes ici pour Ska, votre ami.
+				Sachez que maintenant c'est l'heritier d'Iris.
+:Ada	Héritier ou non, il revient avec nous.
+:Bienveillant 	Ha ha ha ! C'est impossible, il est maintenant avec Gerik, notre seigneur.
+:Wol 	Gerik ? Il est parti pour Berik Ebra ?
+:Bienveillant 	C'est exact. Il va devenir le nouveau prince d'Iris.
+:Wol	Pourquoi ?
+:Bienveillant 	Tel est le destin de ce qui touche la Luxlithe !
+:Ada 	Foutaises ! Montre ta vraie nature qu'on en finisse.
+:Wol	Attends Ada.
+		Vous êtes pas les princes d'Iris ?
+:Bienveillant 	Nous étions.
+:Wol	Comment ? Gerik vous a destitué ?
+:Bienveillant 	Non, non. Nous sommes morts depuis longtemps.
+:Ada 	Quoi !?
+:Wol	Vous êtes devant nous pourtant.
+:Bienveillant 	La forteresse est envouté d'un puissant sort, le temps ici est figé.
+				C'est ainsi que nous survivons...hors du temps.
+:Wol	Mais, vous connaissez Gerik. Comment cela se faisse ?
+:Bienveillant 	Gerik est venu, il y a quelques années. Il nous a envahis.
+:Ada 	Tout comme il l'a fait pour Arvis et va le faire pour Kell.
+:Bienveillant 	Gerik nous a demandé de continuer à diriger Iris, en échange ils nous faut trouver
+				les meilleurs combattants qui renforcerons sont armée.
+:Ada 	Mmh...
+:Wol	Je vois. Ska n'est qu'un appât, nous sommes les combattants. En vous affrontant nous prouvons notre force.
+:Bienveillant 	C'est exact. Après m'avoir tué, vous irez chercher votre ami à Berik Ebra.
+				C'est là-bas, que Gerik vous fera une proposition.
+:Ada 	Il reste un mystère.
+		Nous ne sommes sûrement pas les premiers à venir et à vous affronter. Pourtant vous n'êtes pas morts.
+		Vous êtes là devant nous.
+		Comment faîtes-vous ?
+:Bienveillant 	Le sort figeant le temps est tel que notre mort est aussi figée.
+				Autrement dit, puisque le temps ne s'écoule pas, nous ne pouvons mourir.
+:Ada 	!?
+:Wol	Les deux autres bienveillants ne sont donc pas morts !
+:Bienveillant 	Non. Maintenant, affrontez-moi !
+
+[Combat]
+
+:Ada 	Que fait-on ?
+:Wol	Je ne sais pas.
+:Ada 	On va à Berik Ebra.
+:Wol	Et suivre le piège dans lequel on est tombé ?
+:Ada 	Je ne vois pas d'autres solutions.
+		Ska est là-bas. Toeplitz voulait qu'on y aille.
+		Tant pis pour le piège. On refusera l'offre de Gerik
+:Wol	J'imagine que la mort nous attends si nous refusons son offre.
+:Ada 	C'est vrai. Mais, il sera tant de réfléchir à un moyen de sortir un fois là-bas.
+:Wol 	Dans ce cas, je ne vois pas d'autres choix. Allons à Berik Ebra.
+
+Scène 22
+--------
+	À Berik Ebra, Ska et Gerik. Dans un chambre
+
+:Gerik	Viens, mon ami, viens. Je ne te veux aucun mal.
+:Ska	Où sommes-nous ?
+:Gerik	Tu as été victime d'un puissant sort d'envoûtement.
+		Tu es maintenant à Berik Ebra, ma noble cité.
+:Ska	Berik Ebra ! Tu es Gerik alors.
+:Gerik	Tout à fait. Je vois que je suis connu.
+:Ska	Que fais-je ici ?
+:Gerik	Comme je l'ai dit tu as été victime d'un puissant sort.
+		Te voilà guérit maintenant. Tu es mon hôte.
+:Ska 	Où sont mes amis, Ada et Wol ?
+:Gerik 	Tes amis doivent montrer leur valeur.
+:Ska	Leur valeur ?
+:Gerik 	Pour tout te dire, tu es un appât.
+		Si tes amis sont forts, alors ils viendront te chercher.
+		Sinon, tu peux faire ton deuil.
+:Ska 	Quoi !?
+:Gerik	Je pense que tes amis viendront.
+:Ska	Cela n'a aucun sens.
+:Gerik	Ooh que si. Mais tu dois être fatigué.
+		Repose-toi d'abord, puis rejoins moi à la salle du trône.
+		Je t'expliquerais davantage le sens de cet enlèvement.
+
+
+		Salle du trône
+
+:Gerik 	Aah te revoilà, tu ne t'es pas échappé.
+		Il arrive que certaine personne essaie de s'échapper.
+		Mais je vois que tu es fidèle.
+:Ska	En tout cas, Berik Ebra est joli à visiter.
+:Gerik	Merci, j'ai mis des années à embellir ce fort.
+:Ska	J'aimerais que tu m'expliques la raison de ma présence.
+:Gerik	C'est vrai, je te dois bien ça.
+		Je t'ai enlevé afin d'attirer tes amis.
+		S'ils sont forts, ils viendront jusqu'à moi.
+:Ska 	Mais pourquoi faire ça ? Tu es un psycopathe ou quoi ?
+:Gerik	Je recrute de courageux combattans, cet enlèvement est un test de leur courage.
+:Ska	Pourquoi tu recrutes ?
+:Gerik	Allons, allons réfléchi deux secondes.
+:Ska	...
+:Ska	Mais oui, pour faire la guerre à Arvis et à Kell.
+:Gerik	Tu vois, tu peux y arriver.
+		La guerre nécessite beaucoup d'hommes. Et d'un autre côté je ne peux sacrifier
+		tous mes meilleurs combattants occupés à la chasse à la Luxlithes.
+:Ska	C'est ingénieux.
+:Gerik	Je sais. Tes amis devraient arriver dans la soirée, Ska.
+		J'ai prévu une petit soirée ce soir, tu y es inviter.
+:Ska	Comment connais-tu mon nom ? Je ne t'ai rien dit.
+:Gerik	Vous avez fait les troubles fêtes à Arvis en détruisant le portail.
+		C'est ainsi que j'ai eu vent de vos exploits.
+:Ska	...
+:Gerik	Te joindras-tu à nous ce soir ?
+:Ska	J'ai rien d'autre à faire, alors oui.
+
+		Le soir
+
+:Ska	Gerik a dit que d'autres prisonniers avait essayé de s'enfuir, mais ils avaient échoué.
+		Moi, je vais profiter de la soirée pour m'échapper.
+		L'entrée semble être en face de la salle du trône. Retournons là-bas et sortons.
+
+		Au croissement de la salle du trône.
+
+:Ska	Par là-bas.
+:Ada 	Ska !
+:Ska	Ada ! Wol ! Vous êtes là.
+:Wol	Oui. Tu es aussi sain et sauf.
+:Ska	Mais vous êtes tombés dans un piège.
+:Ada 	T'inquiètes nous sommes au courant. Les Bienveillants d'Iris nous ont tout dit.
+:Ska	Les Bienveillants ?
+:Wol 	Oui, les personnages qui gouvernent la ville Iris où tu t'ai fait envoûté.
+:Ska	D'accord. Bon, maintenant sortons. 
+		Gerik a organisé une petit soirée, il faut en profiter.
+:Wol	Cela explique la facilité que nous avons eu d'entrer à Berik Ebra.
+:Ada 	Malheureusment, la porte d'entrée est très bien surveillée depuis notre arrivé.
+		Il faut trouver un autre moyen.
+:Ska	De là où je viens, il n'y a rien.
+:Wol	Essayons la salle du trône juste en face. Il doit bien y avoir une porte de derrière.
+
+:Gerik	Un instant !
+		Voilà tes amis, Ska ?
+:Ska 	Oui.
+:Wol	Tu es Gerik ?
+:Gerik	Très perspicace. Je savais que vous étiez forts.
+:Ada 	Et tu n'as pas encore tout vu !
+:Gerik	J'ai une proposition à vous faire.
+:Wol	La fameuse proposition. 
+:Ada 	Nous t'écoutons.
+:Gerik	Rejoignez mon armée. En semble nous pouvons unifier les pays de ce monde.
+:Ada 	!?
+:Wol 	Unifier les pays du monde ? Tu es fou ?
+:Gerik 	Non, c'est bien mon objectif.
+:Wol 	Cela n'a aucun sens.
+:Gerik 	Vous n'avez jamais trouvez bizarre que chaque cité, chaque ville, chaque village 
+		est sa Prima et ses chasseurs ?
+		Ne serait-ce pas plus simple avec uniquement une cité ? Ou quelques unes ?
+:Ada 	Nous ne nous sommes jamais posé la question.
+		Mais, jusqu'à présent cela n'a pas posé de problèmes.
+		Alors, pourquoi unifier toutes les cités ?
+:Gerik	Économie d'échelle. N'avez vous pas lu les conclusions de Viktor ?
+:Ska 	Viktor ? Ce n'est pas un scientifique de Pyrrhos ?
+:Gerik	Plus qu'un savant, il dirige la cité de Pyrrhos.
+:Wol	Et que dit ce rapport ?
+:Gerik	Il estime que nous avons épuisé deux tiers de la quantité de Luxlithes disponibles.
+		Les pierres vont devenir de plus en plus rares.
+		Une cité unique pour économiser voilà une solution !
+:Ska 	Nous avons déjà épuise deux tiers !
+:Wol 	Je suis sceptique, comment est-il arrivé à ce chiffre ?
+:Gerik 	Peu importe le chiffre exact. Le fait est là, les Luxlithes ne seront pas éternels comme les diamants.
+		D'autant plus que l'on ne sait pas comment elles se forment.
+:Ada 	Justement, puisque nous ne savons pas, comment peux-tu dire que les Luxlithes ne seront pas éternels ?
+:Gerik 	L'intuition, l'intuition. D'ailleurs aucune autre ressources est infini.
+		Pourquoi les Luxlithes le seraient-elles ?
+:Wol 	En admettant ce fait. Tu unifies les cités en leur déclarant la guerre...
+		Tu crois vraiment que c'est la meilleure solution pour unifier ?
+:Gerik 	L'histoire nous enseigne que ces par les guerres que naissent l'unification.
+		Je mène ma guerre. Et je vous propose de me rejoindre dans ce combat.
+:Ska 	Tuer des innocents ? Jamais !
+:Ada 	Nous ne te suivrons pas, quitte à mourir !
+:Wol 	Ton idée se fonde sur des choses bancales, on ne te suivra pas.
+:Gerik	C'est dommage. Vous allez devoir mourir.
+		J'aurais aimé que vous soyez à mes côtés.
+		Puisque votre décision est prise, alors adieu !
+
+		Au fond du trou
+
+:Ska 	Ça va tout le monde ?
+:Ada 	Oui, ça va.
+:Wol	Bon, je ne sais pas où nous sommes.
+:Ada 	Je dirais les fondations de Berik Ebra.
+		Et au vue de l'eau...pas très loin de la mer.
+:Wol 	De la mer ?
+:Ska	Mmh...oui ç son goût salé c'est bien la mer.
+:Wol 	Il y a peut-être un moyen.
+:Ada 	À quoi penses-tu ?
+:Wol 	Il va falloir faire vite. 
+:Ska 	Pourquoi ?
+:Wol 	Nous sommes au niveau de la mer, je pense que l'eau va monter.
+		Nous allons nous noyer.
+:Ada 	C'est donc comme ça que Gerik tue ceux qui refusent de se joindre à lui.
+:Wol 	Je le pense. Mais qui dit mer, dit bateaux !
+:Ska 	Mais oui, c'est vrai !
+:Ada 	Ça m'étonnerait qu'ils aient laissé un bateau ici.
+:Wol 	Toeplittz nous a montré qu'il y a toujours un accès aux fondations d'une cité.
+		Berik Ebra ne doit pas être une exception.
+		Il doit exister une sortie.
+:Ada 	J'imagine que d'autres ont essayé, mais sont morts.
+:Ska 	Oui, mais je pense pas qu'ils soient morts d'une noyade
+:Ada 	Ooh, Ska tu réfléchis maintenant ?
+:Ska 	Si les prisonniers avaient été noyés, nous trouverions des ossements.
+		Or il n'y en a pas.
+:Wol 	Eh ben, pour une fois que tu remarques quelque chose.
+:Ada 	Rare moment de lucidité
+:Ska 	Eh eh eh ! Je m'étape moi-même.
+:Wol	En tout cas, il a raison. Cela veut dire qu'ils sont morts d'une autre façon.
+:Ada 	Bon, cherchons la sortie alors.
+
+		Le Protorobot
+
 
 
 
