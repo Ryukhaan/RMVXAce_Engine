@@ -889,6 +889,23 @@ Scène 17
 :Wol 	Nous allons ainsi fuir par les égouts.
 :Ada	Sérieusement...il n'y avait pas plus simple ?
 :Toeplitz	Suivez-moi !
+:Toeplitz 	Oh !J'oubliais de vous dire que les égouts d'Arvis ont un 
+			mécanisme particulier. Un système très ingénieux.
+			Ils fonctionnent avec le niveau de la marée.
+:Toeplitz 	Ce système permet de faire monter ou descendre le niveau de l'eau
+			des douves à l'aide d'interrupteur.
+			La cité peut se protéger en montant le niveau de l'eau.
+			Et faciliter l'accès à la ville en le descendant.
+:Wol 	Vraiment ? Mais pourquoi créer un tel système ?
+:Toeplitz 	J'ai appris que ce système avait été conçu pour protéger la ville
+			des monstres. Cela devait permettre d'économiser les Luxlithes.
+			C'est une denrée rare.
+:Ska	Aah mais c'est comme Charmes qui a coupé sa ville en deux pour
+		réduire la quantité de Luxlithes utilisée.
+:Ada 	Cela me semble assez tordu comme système, nan ?
+:Toeplitz	En effet, je ne sais pas si leur système est efficace.
+:Toeplitz 	Quoiqu'il en soit, il va falloir jouer avec le niveau de l'eau
+			si l'on souhaite s'échapper d'ici.
 
 Scène 18
 --------
@@ -902,6 +919,7 @@ Scène 18
 		Ha ha ha !
 		Mais faut d'abord que j'active ce fichu portail.
 :Toeplitz	Halte là !
+:Savant 	Qui va là ?
 :Savant 	Mais...vous étiez en prison ! Comment êtes-vous sortis ?
 :Toeplitz 	Cela ne te regarde pas. Pourquoi Gerik veut envahir Kell ?
 :Savant 	Ça je n'en sais rien. Je ne fais que suivre les ordres.
@@ -912,6 +930,8 @@ Scène 18
 :Wol	Tu t'y mets aussi, Ada. C'est l'air marin qui te rend comme ça ?
 :Ada 	Peut-être ou l'air de la prison.
 :Ska 	À mort !
+:Wol 	Attends Ska !
+:Ada 	Trop tard...
 :Savant 	Mais...Mais...que faîtes-vous ?
 
 ...
@@ -920,17 +940,17 @@ Scène 18
 :Ska	Meurs en silence, vil personnage !
 :Savant Gerik aurait reconnu mes compétences une fois le portail restauré.
 		J'aurais dû alors prendre la tête d'Arvis.
-:Toeplitz 	Vos compétences ? Je m'interroge.
+:Toeplitz 	Vos compétences ? Vous en avez ?
 :Savant 	Vous ne comprenez pas. J'ai souffert toute ma vie.
 			Je n'ai jamais été reconnu.
 			La reconnaissance de Gerik et le royaume d'Arvis était un objectif.
 :Ska	En voilà, encore un savant qui parle...
 :???	J'ai tout entendu. Tu étais un traître, voilà tout.
-:Savant 	Tant pis...je suis mort...maintenant...
+:Savant 	Tant pis...je suis mort maintenant...
 :???	Merci de m'avoir éliminé ce vil félon.
 :Ada	Qui êtes-vous ?
 :Dogan	Je suis Dogan, roi d'Arvis.
-:Wol 	Nous avons à nous expliquer.
+:Wol 	Ah ! Nous avons à nous expliquer.
 :Dogan 	Rien du tout. Vous venez de Kell pour m'assassiner.
 :Ada	C'est absolument faux.
 		Nous aimerions juste retourner à Balfort.
@@ -946,12 +966,14 @@ Scène 18
 :Ska	...
 :Toeplitz	Ils ont tué un traître.
 :Dogan	Mmh...dans ce cas, je sais me montrer clément.
-:Ada	Aah, quand même.
+:Ada	Aah ! 
+:Wol 	Quand même !
 :Dogan	Vous êtes bannis d'Arvis !
 :Ada	...
 :Wol	Ouf...je préfère ça.
 :Dogan 	Quittez immédiatement Arvis. Que l'on ne revois plus dans la cité.
 :Wol	Bien, je crois que nous n'avons guère le choix.
+:Toeplitz 	En route pour Berik Ebra, c'est au nord d'ici.
 
 [Ska, Ada Wol, Toeplitz sortent].
 
@@ -961,17 +983,14 @@ Scène 18
 :Toeplitz	Mais...c'est une méprise !
 :Dogan 	Gardes ! Emparez-vous de lui et jetez-le aux oubliettes !
 		J'entendrais ses revendications plus tard.
-:Dogan	Quant à vous, partez maintenant.
-:Toeplitz	Dirigez-vous vers Berik Ebra, au nord d'ici.
-			N'oubliez pas ce que je vous ai dit.
 
 
 Scène 19
 --------
-	À Aarin, Ska récupère une luxlithe. Ska devient héritier d'Iris. Ada et Wol sont seuls. Nuit à l'auberge.
+	À Irin, Ska récupère une luxlithe. Ska devient héritier d'Iris. Ada et Wol sont seuls. Nuit à l'auberge.
 
 :Ada 	Sommes-nous arrivés ?
-:Wol	Il n'y a personne. Très étrange. Je ne pense que nous soyons à Berik Ebra.
+:Wol	Il n'y a personne. Très étrange. Je ne pense pas que nous soyons à Berik Ebra.
 :Ska	Regardez ! Une Luxlithe. 
 :Ada	Encore ! Toujours en plein milieu de notre route.
 :Ska	On fait comme toujours, on la prend. On tue le monstre qui va débarquer.
@@ -1037,7 +1056,7 @@ Scène 21
 :Bienveillant 	Votre ami ? Il n'y a que nous et l'héritier ici.
 				Si vous voulez l'héritier, alors montrer votre bravoure !
 :Wol	Moi, j'y compte bien. Vous allez la sentir notre bravoure !
-:Bienveillant 	C'est un défi ? Alors en garde !
+:Bienveillant 	En garde !
 
 [Combat]
 
@@ -1046,7 +1065,7 @@ Scène 21
 :Wol 	C'est dégoûtant, ignoble, immonde !
 :Ada 	Je me demande comment il s'y est pris.
 :Wol	Mmh...Ne serait-ce pas le même genre de magie que celle de Malleus ?
-:Ada	Ça y ressemble...mais là c'était lui le monstre.
+:Ada	Ça y ressemble...mais là ! C'était lui le monstre.
 :Wol	Comme quoi on a pas encore tout vu dans le monde.
 :Ada	Oui. Continuons à chercher Ska.
 
@@ -1063,14 +1082,14 @@ Scène 21
 
 :Ada	C'est moi ou ils sont complètement fou ces bienveillants ?
 :Wol	Oui. Je ne comprends pas très bien ce qu'il se passe ici.
-:Ska	Ça ne fait rien, continuons de chercher Ska.
+:Ada	Moi non plus. Mais bon, ontinuons de chercher Ska.
 
 	Troisième Bienveillant
 
 :Bienveillant 	Je vous attendez vaillants combattants.
 :Wol	Tu nous attendais ?
 :Bienveillant 	Oui. Vous êtes ici pour Ska, votre ami.
-				Sachez que maintenant c'est l'heritier d'Iris.
+				Sachez que maintenant c'est l'héritier d'Iris.
 :Ada	Héritier ou non, il revient avec nous.
 :Bienveillant 	Ha ha ha ! C'est impossible, il est maintenant avec Gerik, notre seigneur.
 :Wol 	Gerik ? Il est parti pour Berik Ebra ?
@@ -1078,8 +1097,7 @@ Scène 21
 :Wol	Pourquoi ?
 :Bienveillant 	Tel est le destin de ce qui touche la Luxlithe !
 :Ada 	Foutaises ! Montre ta vraie nature qu'on en finisse.
-:Wol	Attends Ada.
-		Vous êtes pas les princes d'Iris ?
+:Wol	Attends Ada. Vous êtes pas les princes d'Iris ?
 :Bienveillant 	Nous étions.
 :Wol	Comment ? Gerik vous a destitué ?
 :Bienveillant 	Non, non. Nous sommes morts depuis longtemps.
@@ -1087,24 +1105,38 @@ Scène 21
 :Wol	Vous êtes devant nous pourtant.
 :Bienveillant 	La forteresse est envouté d'un puissant sort, le temps ici est figé.
 				C'est ainsi que nous survivons...hors du temps.
-:Wol	Mais, vous connaissez Gerik. Comment cela se faisse ?
-:Bienveillant 	Gerik est venu, il y a quelques années. Il nous a envahis.
+:Ada 	Comment !? 
+:Bienveillant 	Il y a longtemps, nous avions imaginé un sort. Il permettait de figer 
+				le temps. Si nous arrivions à figer le temps sur une Luxlithe,
+				alors nous n'aurions plus besoin de chercher d'autres Luxlithes.
+:Bienveillant 	Celle qui devait être figée, aurait servi sans se comsummer.
+:Wol 	Votre sort a malheureusement échoué.
+:Bienveillant 	Oui. La zone où le temps s'est arrêté était plus grande
+				que celle que nous avions imagnée. Tout Iris a été 
+				condamnée à être hors du temps.
+:Ada 	Au moins, vous n'avez plus de problèmes de Luxlithes !
+:Bienveillant 	Hélas ! Trois fois hélas. Gerik nous a volé notre
+				Luxlithe. Il nous a envahi...
 :Ada 	Tout comme il l'a fait pour Arvis et va le faire pour Kell.
 :Bienveillant 	Gerik nous a demandé de continuer à diriger Iris, en échange ils nous faut trouver
-				les meilleurs combattants qui renforcerons sont armée.
+				les meilleurs combattants qui renforcerons son armée.
 :Ada 	Mmh...
-:Wol	Je vois. Ska n'est qu'un appât, nous sommes les combattants. En vous affrontant nous prouvons notre force.
+:Wol	Je vois. Ska n'est qu'un appât, nous sommes les combattants. 
+		En vous affrontant nous prouvons notre force.
 :Bienveillant 	C'est exact. Après m'avoir tué, vous irez chercher votre ami à Berik Ebra.
 				C'est là-bas, que Gerik vous fera une proposition.
 :Ada 	Il reste un mystère.
-		Nous ne sommes sûrement pas les premiers à venir et à vous affronter. Pourtant vous n'êtes pas morts.
-		Vous êtes là devant nous.
-		Comment faîtes-vous ?
-:Bienveillant 	Le sort figeant le temps est tel que notre mort est aussi figée.
-				Autrement dit, puisque le temps ne s'écoule pas, nous ne pouvons mourir.
+:Wol 	Ah bon ?
+:Ada 	Oui, nous ne sommes sûrement pas les premiers à venir et à vous affronter. 
+		Pourtant vous n'êtes pas morts. Vous êtes là devant nous.
+		Comment faîtes-vous ? Quel est le lien avec le temps figé ?
+:Bienveillant 	Le sort a été beaucoup plus puissant que nous l'imaginions. 
+				Notre mort est aussi figée.
+				Puisque le temps ne s'écoule pas, nous ne pouvons mourir.
 :Ada 	!?
 :Wol	Les deux autres bienveillants ne sont donc pas morts !
-:Bienveillant 	Non. Maintenant, affrontez-moi !
+:Bienveillant 	Non. Assez parler, étrangers.
+				Maintenant, affrontez-moi !
 
 [Combat]
 
@@ -1281,6 +1313,74 @@ Scène 22
 		Le Protorobot
 
 
+Scène 23
+--------
+
+	Retour à Balfort
+
+:Ada 	C'est calme. Trop calme.
+		Où sont donc passés les habitants ?
+:Wol 	Toutes les portes semblent fermés, les volets aussi.
+		Que s'est-il passé en notre absence ?
+:Ska 	Là-bas, dans la maison de Yugon, il semble qu'il y ait
+		des personnes.
+:Wol 	Allons vois.
+
+...
+
+:Kelpie 	Ha ha ha ! Vous revoilà !
+:Ada 	Kelpie !
+:Wol 	Encore toi !
+:Kelpie 	Oui, je suis de retour. On ne se débarasse pas de moi comme ça.
+:Ska 	Ou est ton ami Malleus ?
+:Kelpie 	Hélas, j'ai perdu sa trace depuis notre dernière rencontre.
+			Nous avons été séparé.
+			J'ai été jété en prison et on m'a proposé un marché.
+:Ada 	Un marché ? Il y a un lien avec nous ?
+:Kelpie 	Oui. Cela fait des jours que j'attends votre retour !
+:Ska 	Rah misérable !
+:Wol 	Du calme, Ska. Écoutons-le avant.
+:Kelpie 	Il serait préférable en effet. 
+			Yaga est mon otage.
+			En voici la preuve.
+:Yaga 	Ada, Ska, Wol ! Vous êtes revenus !
+		Puck est devenu fou. Il a attaqué le village !
+:Ska 	Puck ?
+:Ada 	Tu es bien Puck ! Je le savais depuis le début.
+:Kelpie 	Oui, Puck est mon autre nom.
+:Wol 	À quoi joues-tu ?
+:Kelpie 	Je ne joue pas, mon cher Wol.
+			J'ai une mission à vous confier.
+:Ada 	Une mission ?
+:Kelpie 	Écoutez-moi.
+			J'ai été emprisonné par Pyrrhos.
+			En échange de ma liberté, Viktor m'a propsé le marché suivant.
+:Kelpie 	Je vous retrouve et nous allons à Ishtar.
+:Wol 	À Ishtar ?
+:Ska 	C'est tout ?
+:Kelpie 	Ishtar est une cité sur le continent nord.
+			Une fois à Ishtar, je vous détaillerais la suite.
+:Ada 	Pourquoi nous ?
+:Kelpie		Viktor a eu vent de vos aventures avec Gerik.
+			Il a jugé que vous étiez les meilleurs pour cette mission.
+:Wol 	Et si on refuse ?
+:Kelpie 	Ha ha ha ! Viktor a tout prévu.
+			Votre ami Yugon, ainsi que les habitants sont retenus en otage à Pyrrhos.
+			Nous n'avez pas le choix.
+:Ska 	Grr...
+:Wol 	Quel fourbe !
+:Ada 	Pourquoi ne pas avoir pris Yaga ?
+:Kelpie 	Cessez de poser des questions.
+			Je n'en sais pas plus. Je vous rappelle que je
+			suis aussi le prisonnier de Viktor.
+:Wol 	Mmh...
+:Ada 	Je crois que nous n'avons pas le choix.
+:Kelpie 	Il faut d'abord avertir Viktor. Nous avons besoin d'un bateau
+			pour nous rendre à Ishtar.
+:Wol 	Nous avons un bateau. Pas besoin de l'avertir.
+		Partons de suite !
+:Ska 	Oui, plus vite commencer plus vite fini.
+		Et les habitants seront libérés.
 
 
 
